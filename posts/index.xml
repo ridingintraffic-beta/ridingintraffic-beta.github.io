@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ridingintraffic-beta</title><link>https://ridingintraffic-beta.github.io/posts/</link><description>Recent content in Posts on ridingintraffic-beta</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Aug 2022 14:11:56 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Post</title><link>https://ridingintraffic-beta.github.io/posts/my-first-post/</link><pubDate>Sun, 07 Aug 2022 14:11:56 -0500</pubDate><guid>https://ridingintraffic-beta.github.io/posts/my-first-post/</guid><description>this is just a test of the hugo build and theme</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on what did I learn today</title>
+    <link>https://ridingintraffic.github.io/posts/</link>
+    <description>Recent content in Posts on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 07 Aug 2022 14:41:47 -0500</lastBuildDate><atom:link href="https://ridingintraffic.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022 08 04 Rp2040</title>
+      <link>https://ridingintraffic.github.io/posts/2022-08-04-rp2040/</link>
+      <pubDate>Sun, 07 Aug 2022 14:41:47 -0500</pubDate>
+      
+      <guid>https://ridingintraffic.github.io/posts/2022-08-04-rp2040/</guid>
+      <description>player 2(040) has entered the game. During the past 2 years if you had not noticed, there has been a chip shortage. Namely the atmega 32u4 chips that power the elite-c and pro micros microcontrollers that are at the centers of custom keyboards. It just so happened that during this time raspberry pi developed a microcontroller of their own.
+This is known as the rp2040.
+rp2040
+Why does this matter? Well we can now get the 2040 as a drop in replacement for the pro micros.</description>
+    </item>
+    
+    <item>
+      <title>Hello world</title>
+      <link>https://ridingintraffic.github.io/posts/my-first-post/</link>
+      <pubDate>Sun, 07 Aug 2022 14:27:51 -0500</pubDate>
+      
+      <guid>https://ridingintraffic.github.io/posts/my-first-post/</guid>
+      <description>Hello and this is the start of something new</description>
+    </item>
+    
+  </channel>
+</rss>
