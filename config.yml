@@ -19,7 +19,7 @@ params:
   title: what did i learn today
   description: "interesting bits of knowledge"
   keywords: [Tips, Blog, Portfolio, PaperMod]
-  author: Me
+  author: Mike Fettis
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
@@ -100,7 +100,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/ridingintraffic-beta/ridingintraffic-beta.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
