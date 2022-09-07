@@ -9,13 +9,40 @@
       <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Aug 2022 14:41:47 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>daily</title>
+      <link>https://ridingintraffic-beta.github.io/categories/daily/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/categories/daily/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>keyboards</title>
       <link>https://ridingintraffic-beta.github.io/categories/keyboards/</link>
       <pubDate>Sun, 07 Aug 2022 14:41:47 -0500</pubDate>
       
       <guid>https://ridingintraffic-beta.github.io/categories/keyboards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://ridingintraffic-beta.github.io/categories/blog/</link>
+      <pubDate>Fri, 30 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wiki</title>
+      <link>https://ridingintraffic-beta.github.io/categories/wiki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/categories/wiki/</guid>
       <description></description>
     </item>
     

@@ -9,7 +9,18 @@
       <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Aug 2022 14:41:47 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ripgrep file context</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-09-06-ripgrep-filename-context-search/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-09-06-ripgrep-filename-context-search/</guid>
+      <description>rip grep tip I use ripgrep all the time and often times there are little things that can really help you find what you are serarching for. This is one of them.
+I want to find a string in a specific filename that exists in many folders. Then I want to display those resutls with some context.
+rg &amp;#39;.wait:&amp;#39; -g &amp;#39;.gitlab-ci.yml&amp;#39; --context 5 The string that I am searching for is .</description>
+    </item>
+    
     <item>
       <title>Building QMK with Rp2040</title>
       <link>https://ridingintraffic-beta.github.io/posts/2022-08-04-rp2040/</link>
@@ -29,6 +40,1458 @@ Why does this matter? Well we can now get the 2040 as a drop in replacement for 
       
       <guid>https://ridingintraffic-beta.github.io/posts/my-first-post/</guid>
       <description>Hello and this is the start of something new</description>
+    </item>
+    
+    <item>
+      <title>2018-11-30 virtualbox-shared-clipboard_ripgrep-install</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</link>
+      <pubDate>Fri, 30 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</guid>
+      <description>Virtualbox shared clipboard When using virtualbox it is pretty important that you are going to want to have a shared clipboard between your machine and the vm. This can be done for linux/kali linux by doing the following.
+Start VirtualBox. Start the host in question. Once the host has booted, click Devices | Insert Guest Additions CD Image. Open up a terminal window in the guest. Mount the CD-ROM with the command sudo mount /dev/cdrom /mnt.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-28 pihole-and-luks-update</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-28-pihole-and-luks-update/</link>
+      <pubDate>Wed, 28 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-28-pihole-and-luks-update/</guid>
+      <description>pi-hole Well i had tried to use pi-hole before and it failed horribly. Tonight on the other hand, I just wiped a pi and installed an sdcard, ran a simple script and all the magic was done for me&amp;hellip; So I guess I might have to use this after all&amp;hellip;. I am also going to do some research on automating the maintaince of it to make sure the block lists are also up to date and whatnot.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-26 fun-with-rsync</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-26-fun-with-rsync/</link>
+      <pubDate>Mon, 26 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-26-fun-with-rsync/</guid>
+      <description>fun with rsync Sometimes you jsut gotta back up files as clones, to another location. On a mac you have access to rsync and it is avaialbe in homebrew. brew install rsync wait for completion and then you are good to go. Alright so how about some commands..
+copy from local to usb rsync -av /Users/$(whoami)/Documents/ /Volumes/1tb/backup/
+copy from nas to usb rsync -av /Volumes/files/data/ /Volumes/1tb/backup/
+mac will mount nas shares in the share name and then in volumes, so this is reliant on that mount being present when you want to pull something down from said nas.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-21 book-list_chaos-engineering_docker-python</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-21-book-list_chaos-engineering_docker-python/</link>
+      <pubDate>Wed, 21 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-21-book-list_chaos-engineering_docker-python/</guid>
+      <description>books Everyone like to read things right? well I came across this list from palo alto earlier and it looks pretty promising. cybercanon.paloaltonetworks There area whole bunch of books in there raning from security to chaos engineering. Down the chaos engineering rabbit hole we go checkout this list of chaos engineering everything here awesome-chaos-engineering
+what is chaos engineering? It is using the ideas that the systems that we create now are so complex and dense.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-15 hashcat-nvidia-fans</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-15-nvidia-fancontrol/</link>
+      <pubDate>Thu, 15 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-15-nvidia-fancontrol/</guid>
+      <description>nvidia fan settings Nvida gpu cards have firmware regulators in place that are OK with the cards running at 85c when they are under load. This is designed because of the assumption that the cards will only ever be under that kind of load for a short period. However when you want to run gpu&amp;rsquo;s at 100% utilization for an extended period it is often better to run these cards colder.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-14 hashcat-luks</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-14-luks-hashcat/</link>
+      <pubDate>Wed, 14 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-14-luks-hashcat/</guid>
+      <description>luks encryption lets create an encrypted container and toss some data in it&amp;hellip;
+$ dd if=/dev/urandom of=test bs=1M count=100 $ cryptsetup luksFormat test #use password password $ cryptsetup luksOpen test tmp $ xxd -l 512 /dev/mapper/tmp # is random data at this point $ mkfs.ext4 /dev/mapper/tmp # use the same file system that is used by your system/device $ xxd -l 512 /dev/mapper/tmp # should no longer be random data $ cryptsetup luksClose tmp After it is created if we wanted to crack it with hashcat then we would just need to grab some header data and run it though</description>
+    </item>
+    
+    <item>
+      <title>2018-11-13 git-bfg-cleaner</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-13-git-got-big-files-bfg/</link>
+      <pubDate>Tue, 13 Nov 2018 08:10:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-13-git-got-big-files-bfg/</guid>
+      <description>Git got big files or keys? Break out BFG Everybody messes up, today&amp;rsquo;s mistake was adding a big file to git before a .gitignore was in place to handle it. As a result, github is rejecting the push, even after &amp;ldquo;removing&amp;rdquo; the file from git. The reason is that the file still exists in git(history). Time to clean up the mess, break out BFG and nuke it from orbit. -Sadly this means java is involved, but necessary demons.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-13 Mechanical_and_custom_keyboards</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-13-mechanical_and_custom_keyboards/</link>
+      <pubDate>Tue, 13 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-13-mechanical_and_custom_keyboards/</guid>
+      <description>Mechanical and custom keyboards What was “old” is new again, Mechanical keyboards! A mechanical keyboard is one that has a discrete mechanical switch under each and every key. There are a number of sites out there that can go into the specific details about exactly how these function, as well as all the differences between the switches. This article is not going into much detail about the switches themselves but rather everything else.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-13 QMK-deepdive-sweeet16</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-13-qmk_deepdive_sweet16/</link>
+      <pubDate>Tue, 13 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-13-qmk_deepdive_sweet16/</guid>
+      <description>QMK deepdive using a sweeet16 16 keys!? What can be done with 16 keys for a keyboard? Using an amazing open source firmware and a kit by 1upkeyboards, much can be done with only 16 keys. QMK is a powerhouse of a firmware that allows an endless combination of regular keys, functions and extended macros. These features are relatively easy to construct and the firmware itself can be very easy to build and flash.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-12 docker-powershell</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-12-docker_powershell/</link>
+      <pubDate>Mon, 12 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-12-docker_powershell/</guid>
+      <description>docker powershell To prove a point i went out and foudn that there is a microsoft supported docker image for powershell. dockerhub - microsoft
+this means that running a mac, you can run docker that runs linux and then will let you run powershell.. You must go deeper&amp;hellip; ha
+instant pot dragon head instant pots are pretty rad and there is this little thingverse that will let you have a dragon head for your instant pot, you just need to make sure that you print it with pla so that it does not instamelt when you are releasing the steam dragon head</description>
+    </item>
+    
+    <item>
+      <title>2018-11-09 Systemd-restarts-splunk-py</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-09-systemd-restart-fail/</link>
+      <pubDate>Fri, 09 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-09-systemd-restart-fail/</guid>
+      <description>Systemd restarting A while ago I had a service that would need to be restarted after it had a cool down of about 2 hours&amp;hellip; I had a stanza that stated
+Restart=always RestartSec=7200 which was cool because it would just autorestart when it died. At the time the restart would work just fine after the cooldown. The catch that I ran in to was because of that timer, if I logged in and tried to start it when it was in a failed state, the service would hang.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-06 Outlook-reminders</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-06-outlook-reminders/</link>
+      <pubDate>Tue, 06 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-06-outlook-reminders/</guid>
+      <description>Outlook is terrible Yes outlook is horrible but when you have to use it, its nice to be able to set defaults that don&amp;rsquo;t annoy others. One such is the default reminder for the calendar&amp;hellip; Most of the time reminders aren&amp;rsquo;t useful unless they are used sparingly. Let turn them off. change-the-default-reminder-time
+tick stack and grafana i like the tick stack and it can be useful for a number of things, here is a brief overview of it.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-02 systemd-restarts-friday-links</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-02-systemd-restarts/</link>
+      <pubDate>Fri, 02 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-02-systemd-restarts/</guid>
+      <description>Systemd restart policy sometimes services die. sometimes there is not a better option because of the situatuion that you are in, and you just need to wait it out and then restart the service&amp;hellip; I know it isn&amp;rsquo;t ideal and that there should be better ways around having to do this but hey ¯_(ツ)_/¯
+[Service] Type=simple Restart=always RestartSec=3 ExecStart=/path/to/script In my case I needed to wait it out and restart the service 2 hours after it died.</description>
+    </item>
+    
+    <item>
+      <title>2018-11-05 bash-ctrl&#43;r</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-05-bash-ctrl-r/</link>
+      <pubDate>Fri, 02 Nov 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-05-bash-ctrl-r/</guid>
+      <description>Bash ctrl+r Bash has a special “recall” mode you can use to search for commands you’ve previously run:
+Ctrl+R: Recall the last command matching the characters you provide. Press this shortcut and start typing to search your bash history for a command. Ctrl+O: Run a command you found with Ctrl+R. Ctrl+G: Leave history searching mode without running a command. keyboard-shortcuts-for-bash-command-shell</description>
+    </item>
+    
+    <item>
+      <title>2018-10-25 splunk-hec-python</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-10-25-splunk-hec-python/</link>
+      <pubDate>Thu, 25 Oct 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-10-25-splunk-hec-python/</guid>
+      <description>Splunk HTTP collector python script Hey the http collector is awesome so let use it in python to send things to stuff&amp;hellip; This is going to just take a dictionary as event data and then pass that to the http collector using only the request library . You will need to have a collector enabled for splunk and a token generated.
+#!/usr/bin/env python import time import requests import urllib3 ##turns off the warning that is generated below because using self signed ssl cert urllib3.</description>
+    </item>
+    
+    <item>
+      <title>2018-10-05 splunk-power-mains</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-10-05-splunk-power-mains/</link>
+      <pubDate>Fri, 05 Oct 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-10-05-splunk-power-mains/</guid>
+      <description>splunking home power What happens when you take Splunk, a wireless smart meter and an api interface? Splunking your entire home’s power main, without touching a single power wire! This allows a whole house view of all the power being drawn in real time. The only requirements are raspberry pi on a network, a splunk instance somewhere and a usb adapter plugged into the PI.
+Hold on, hold on, whats a smart meter?</description>
+    </item>
+    
+    <item>
+      <title>2018_10_03_splunk-things</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-10-03-splunk-things/</link>
+      <pubDate>Wed, 03 Oct 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-10-03-splunk-things/</guid>
+      <description>splunk things windows event codes widnwos event codes are impossible to remember luckily there is a lookup out there https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx Lookup from github windows event code stuff, there is also a ton of other windwos docs in there&amp;hellip; https://github.com/MicrosoftDocs/windowsserverdocs/blob/master/WindowsServerDocs/identity/ad-ds/plan/Appendix-L--Events-to-Monitor.md
+splunk and docker https://github.com/splunk/docker-splunk https://github.com/splunk
+splunk and git https://github.com/Kintyre/ksconf http://www.kintyre.co/uploads/1/0/7/2/107288911/managing_splunk_deployment_with_git_-_philly_splunk_meetup_-_june_2018.pdf</description>
+    </item>
+    
+    <item>
+      <title>2018_09_27_wifi_things_docker_things</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-09-27-wifi-mac-docker-build-args/</link>
+      <pubDate>Thu, 27 Sep 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-09-27-wifi-mac-docker-build-args/</guid>
+      <description>wifi on mac Sometimes you want to know what wifi network you are on from the terminal or in bash for some reason. this can be done with airport and then a little bit of awk
+loc=$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | awk &amp;#39;/ SSID/ {print substr($0, index($0, $2))}&amp;#39;) echo $loc docker env variables There are these things called build arguments in docker.
+Sometimes you will want to pass arguments based on your environment.</description>
+    </item>
+    
+    <item>
+      <title>2018_09_18_wiping-git</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-09-18-git-wipe/</link>
+      <pubDate>Tue, 18 Sep 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-09-18-git-wipe/</guid>
+      <description>removing git history sometimes you jsut want to wipe everything from a git repo but you want to hold on to the files.
+We can do this by following this pattern:
+&amp;ndash; Remove history rm -rf .git
+&amp;ndash; recreate the repos from the current content only git init git add . git commit -m &amp;ldquo;Initial commit&amp;rdquo;
+&amp;ndash; push to the github remote repos ensuring you overwrite history git remote add origin git@github.</description>
+    </item>
+    
+    <item>
+      <title>2018-08-28_Synology_Time_Machine</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-08-28-time-machine-nas/</link>
+      <pubDate>Tue, 28 Aug 2018 08:10:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-08-28-time-machine-nas/</guid>
+      <description>Synology time machine &amp;ldquo;How_to_back_up_files_from_Mac_to_Synology_NAS_with_Time_Machine.
+This will let you p[lug in a usb drive to a synolgoy nas and then from there configure an AFP share that mac&amp;rsquo;s time machine software will find and then allow network backups. It is still on site so it isn&amp;rsquo;t totally secure and reliable. But it is a pretty good use of a 2tb drive and a NAS. The initial backup is kind of brutal but then anything after that should be a bit better and faster.</description>
+    </item>
+    
+    <item>
+      <title>2018-08-28 kerberoasting</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-08-28-kerberoasting/</link>
+      <pubDate>Tue, 28 Aug 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-08-28-kerberoasting/</guid>
+      <description>Kerberoasting! Lets talk about some old security here. Kerberos! This is a couple years old but sadly still works. Kerberos is the authentication system for windows and ad networks. There is an exploit that allows us to get back a poorly encrypted hash of valuable logins all directly from the domain controller, this is done once you have an authenticated user, so it isn&amp;rsquo;t the main way in but once you have a foothold you can pivot to a more useful account.</description>
+    </item>
+    
+    <item>
+      <title>2018-08-27 router modding</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-08-27-router_modding/</link>
+      <pubDate>Mon, 27 Aug 2018 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-08-27-router_modding/</guid>
+      <description>router hacking These instructions are only intended for the purpose of being able to install legally licensed firmware on routers you own. Do not use this guide as instructions for violating any patents or copyright laws
+There is a router out there known as T-Mobile (AC-1900) which is a rebranded ASUS AC1900/68u. The tmobile router sells for $70 and the asus router sells for $130–$170. Whats the difference between these two?</description>
+    </item>
+    
+    <item>
+      <title>2017-03-09 cia, hacking, , struts, ripgrep, z</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-09-2017-03-09/</link>
+      <pubDate>Thu, 09 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-09-2017-03-09/</guid>
+      <description>cia hacking The cia had their hacking tools dumped on the web, no way who would have guessed they had these tools, of course they do and they have. schneier wikileaks_relea mkdir whole paths mkdir -p a/b/c makes the WHOLE path woooo!!!
+struts 0-day who likes 0-days 0-days happen this one looks fun apache-struts-framework z A tool to jump around directories easily in the terminal with this thing called z github repo z ripgrep ripgrep combines the usability of The Silver Searcher with the raw speed of grep.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-06 git, splunk, lastpass-cli</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-06-something-witty/</link>
+      <pubDate>Mon, 06 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-06-something-witty/</guid>
+      <description>git Git should know better and totally commit and add files that I was working on last night. I left an uncommited file sitting on a laptop at my house when I went to work today&amp;hellip; Rookie mistake.
+for ALL the repos
+$ git config --global user.name &amp;#34;John Doe&amp;#34; $ git config --global user.email &amp;#34;john@doe.org&amp;#34; only for oen repo
+$ git config user.name &amp;#34;John Doe&amp;#34; $ git config user.email &amp;#34;john@doe.org&amp;#34; git aliases are cool add to your .</description>
+    </item>
+    
+    <item>
+      <title>2017-03-07  markdown, confluence, mac admin accounts</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-07-today/</link>
+      <pubDate>Mon, 06 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-07-today/</guid>
+      <description>confluence confluence supports some version of markdown, however it is not super compatabiole with jekyll. There is a quick little ruby script that converts your .md files into a text that confluence can handle. markdown2confluence
+resetting admin passwords on a mac. I was reminded of this loophole topday and though I woudl write it down. how-to-create-a-new-administrator-account
+PROCEDURE 1. BOOT INTO SINGLE-USER MODE Turn on the computer. Upon hearing the startup chime, hold the key combination CMD+S.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-03 coffee roaster</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-03-roaster-info/</link>
+      <pubDate>Fri, 03 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-03-roaster-info/</guid>
+      <description>roast Info using the kill-a-watt attached to the router for exact wattage measurements on my 1200 watt poppery II. full heat is 1000 watts with the heating coils fully isolated. Also there is a basic high temp thermometer that is simply dropped in the top
+ambient air temp is 68 degrees with 25% humidity preheat to 275 which is stable heat at 650 watts fan should be run at 100% but can dial down subtly in order to finely adjust the temps |&amp;mdash;+&amp;mdash;+&amp;mdash;|</description>
+    </item>
+    
+    <item>
+      <title>2017-03-02 docker, bash, coffee</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-02-docker-hack/</link>
+      <pubDate>Thu, 02 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-02-docker-hack/</guid>
+      <description>docker reboot Every once and a while for prem docker installation a reboot is needed. There are some tools out there that can most likely do this, but today a quick and dirty bash script solved the problem.
+Step one dump all the running container IDS, today there were about 23 containers running. docker ps -q &amp;gt;&amp;gt;ids
+Next reboot sudo reboot Finally the bash script to quickly spin them all back up.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-03 ssh, bash</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-03-up-all-night/</link>
+      <pubDate>Thu, 02 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-03-up-all-night/</guid>
+      <description>bash ssh keys Good to remember if you have ssh keys setup the .ssh folder is 700 and the authorized_keys file is 644
+SSH keys are a public and private key that you store on a host that you are going to ssh in to. This key allwos fo r aecure login without having to relay a password through the terminal. It is a more secure form of authentication that the basic username and password.</description>
+    </item>
+    
+    <item>
+      <title>2017-02-28 ELK? aws and openvpn</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-02-28-elk/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-02-28-elk/</guid>
+      <description>ELK There is this thing called elk, and I have no idea how to use it. I don&amp;rsquo;t even know where to being with ELK. I have been using splunk for years, I know how ot do all of this in splunk. But because the data I need is in elk and i cannot easily get it in to splunk I will have to at least start with elk and then go from there.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-01 js, karma, protractor, npm, bash, akamai</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-01-javascript-filling-in-the-missing-bits/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-01-javascript-filling-in-the-missing-bits/</guid>
+      <description>javascript and node No more just adding things to the package.json HA!
+To add an entry to your package.json&amp;#39;s dependencies: npm install &amp;lt;package_name&amp;gt; --save To add an entry to your package.json&amp;#39;s devDependencies: npm install &amp;lt;package_name&amp;gt; --save-dev version numbers and what they actually mean https://docs.npmjs.com/getting-started/semantic-versioning
+Patch releases: 1.0 or 1.0.x or ~1.0.4 Minor releases: 1 or 1.x or ^1.0.4 Major releases: * or x testing How fast can I fill in all the holes for TDD&amp;hellip; not fast enough apparently ;)</description>
+    </item>
+    
+    <item>
+      <title>2017-02-27 nginx, splunk, docker, git</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-02-27-mondays/</link>
+      <pubDate>Mon, 27 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-02-27-mondays/</guid>
+      <description>Splunk and nginx Doing some splunkjs work from a docker container, and hosting it out of nginx, which means I needed to configure a proxy pass using some load balancing in order to access the splunk cluster, this was a little tricky because of session persistence and https. nginx load balancing Luckily there are some good pslunk blogs out there that help out configuring-nginx-with-splunk-rest-api-sdk-compatibility and some good reading about splunkjs read them both using-the-splunkjs-stack-part-1</description>
+    </item>
+    
+    <item>
+      <title>2017-02-26 google, analytics, fitbit, dod, open source</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-02-26-sunny-sunday/</link>
+      <pubDate>Sun, 26 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-02-26-sunny-sunday/</guid>
+      <description>February in Chicago can be less than sunny, although the sun came out today
+google analytics seems pretty easy Log in to the google page and create a site google page. Then add the tracking code to the jekyll theme and bam site tracking.
+fitbit There has been research done around the accuracy of optical heart rate monitors. I knew they were not accurate up past 150 bpm. This is because the blood is flowing too fast for the sensor to keep up with.</description>
+    </item>
+    
+    <item>
+      <title>2017-02-25 ithub, git, jekyll, ruby, mac, docker, raspberrypi</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-02-25-busy-saturday/</link>
+      <pubDate>Sat, 25 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-02-25-busy-saturday/</guid>
+      <description>Productive Saturday rant Been cranking away at my laptop from 630-830 this morning, and realizing that my ancient mac book air battery which was already replace once, is just a poor shadow of what it should be. I&amp;rsquo;m only going to get about 3 hours out of this battery before it dies. Which is sad because i really wanted to get a new laptop this year but mac did not really give us any options.</description>
+    </item>
+    
+    <item>
+      <title>2017-02-24 coffee, jekyll, hugo</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-02-24-first-friday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-02-24-first-friday/</guid>
+      <description>Today is the first day I was listening to a podcast today, arrested devops and on it was julia evans she talked about writing a blog post every day about what she learned. Originally this was done for her workshop, in order to keep track of the days and things learned. I feel like it is a good idea so I shall give it a go.
+What did I learn? Today I learned about jekyll and hugo.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-05 vpn, openvpn, fstab, raspberry-pi, vnc</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-05-vpns-are-annoying/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-05-vpns-are-annoying/</guid>
+      <description>I missed a day oops, probably had something to do with the up all night post from before.
+VPNs are annoying For a whole variety of reasons I use vpns for various tasks. Lately finding one with good throughput has been a headache and annoynce. For thepast few years I have been using two differnt vpns and both of them have suddenly started to have throughput issues.
+vpn reviews This site looks to offer some good reviewsfor vpns out there could be worth taking a look thatoneprivacysite</description>
+    </item>
+    
+    <item>
+      <title>2017-03-14 macOS, docker, ctop</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-14-pi-day/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-14-pi-day/</guid>
+      <description>I missed a few day because I was on vacation. I tihnk I want to try and add more context and text around these entires but today was choas and one fire from the next, therefore I didn&amp;rsquo;t have a chance to really dig in to learning. Sadly fire fighting is turning into too much of my everday, this needs to get chagned so that I can spend more time building tools and learning about things.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-15 akamai, python, artillery</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-15-chaos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-15-chaos/</guid>
+      <description>akamai Today I decided that it was time that I wrote a quick and easy script that would go through and dump akamai cache from a file that contained a list of links. This has been a manual process for the most part, and that is pretty terrible. Luckily there is a bunch of docs and doc examples out there for this kind of stuff. https://github.com/akamai-open/api-kickstart
+https://developer.akamai.com/introduction/Conf_Client.html
+https://developer.akamai.com/api/luna/diagnostic-tools/overview.html
+You will need to create some api keys that can all be done through the luna portal, and after doing that and following the demo steps in the links above you will have a txt file.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-16 hak5, bash, docker, swarm</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-16-bash-bunny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-16-bash-bunny/</guid>
+      <description>I acquired a bsh bunny yesterday and we will see what I can figure out with it.
+bash bunny yes the bash bunny is pretty simple to use. It is a full mini linux computer that runs on an arm7 chip with a good amount of on board storage and ram. I was able to pull down the repo from bunny payloads and do a quick nmap of my machine. payload git repo: https://github.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-20 hubot, 42, hitchikers guide</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-20-hubot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-20-hubot/</guid>
+      <description>hubot Hubot is a fun piece of code, it is a bot framework that is built by github and has adapters for a whole bunch of things. I use it with slack. I have been working on hubot for some time now. https://hubot.github.com/ We have a bunch of webhooks that post a whole variety of message to slack. It turns out that by default hubot ignores all of those messages. This is because you generally don&amp;rsquo;t want bots getting in to an endless loop of talking to each other.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-21, dogs</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-21-more-chaos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-21-more-chaos/</guid>
+      <description>dogs ADD took its toll and I wandered down this rabbit hole, pparently the dog greeting stretch is a thing.
+The Greeting Stretch is a posture used only towards someone the dog likes and with whom he is comfortable. There is also a version of this where the dog leans forward and stretches his rear legs out behind him. In the greeting stretch, you will see a relaxed ear carriage and squinty eyes.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-22, docker, swarm</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-22-today/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-22-today/</guid>
+      <description>docker swarm bounce sometimes you just need a docker swarm service to restart&amp;hellip; right now this is the best way that i know of in order to get it to bounce. I am sure that they is a better way but I need to find that. docker service update --env-add UPDATE=1 hubot_opsbot-hubot
+spectacle window manager for macos Spectacle and its donateware yay https://www.spectacleapp.com/ I have a Billion windows open at all time and I am hopping between resolutions when I am at may desk and when I walk away from it, I am going to give this window manager a try.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-24, splunk docker</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-24-today/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-24-today/</guid>
+      <description>Splunk docker logging driver https://docs.docker.com/engine/admin/logging/splunk/#message-formats &amp;ndash;log-opt tag=&amp;quot;{{.Name}}/{{.FullID}}&amp;quot; \</description>
+    </item>
+    
+    <item>
+      <title>2017-03-26, vim</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-26-sunday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-26-sunday/</guid>
+      <description>pathogen vim whne I reinstalled everything on my laptop i forgot to install pathogen for vim. and as a result. all of my conf files from the dotfile repo stopped working right in vim :( good to keep track of this repo https://github.com/tpope/vim-pathogen and then the command to support it:
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim``` </description>
+    </item>
+    
+    <item>
+      <title>2017-03-27, sublimetext, bash, shellcheck</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-27-monday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-27-monday/</guid>
+      <description>https://evertpot.com/osx-tmux-vim-copy-paste-clipboard/
+for sublime package controll ou can sync it with dropbox like this dropbox sync
+shellcheck is pretty rad and you can add it directly into sublime text so that you can lint your shell scripts shellcheck also julia evans has some great things to say about bash and common mistakes that happen in bash. bash-quirks</description>
+    </item>
+    
+    <item>
+      <title>2017-03-28, dtrace</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-28-dtrace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-28-dtrace/</guid>
+      <description>dtrace dtrace is pretty intereting and I need to learn more about it. Similar to strae which i also don&amp;rsquo;t know how to use. I did not get a chance to spend as much time as I wanted with dtrace so I will have to come back to this one dtrace-even-better-than-strace-for-osx.html
+dtrace
+docker attach Well Ctrl + C (or Ctrl + \ ) should detach you from the container but it kill the container because your main process is a bash.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-30, vagrant</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-30-today/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-30-today/</guid>
+      <description>vagrant vagrant is a useful tool for demoing and discovery work when you don&amp;rsquo;t want to go about standing up everything
+vagrant init ubuntu/trusty64 vagrant up - starts up the vagrant image that has a vagrant file in the working directory vagrant status - checking status of vagrant vagrant ssh to log in to the machine that is already running cat /etc/issue vagrant destroy - tears it all down vagrant halt _ stop without teardown which &amp;lt;command&amp;gt; - shows you were that commmand lives ansible ansible inventory</description>
+    </item>
+    
+    <item>
+      <title>2017-03-31, vault, hubot</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-31-today/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-31-today/</guid>
+      <description>Vault Storing secrets for docker containers can be tricky to get right. There is this thing called vault that does it pretty safely for you. The idea is that there should be nothing sensitve stored in the configuration of your containers. This is hard because when you need keys and passwords it is quite common to store those as environment variables and then refences those. You should not do that, that is bad.</description>
+    </item>
+    
+    <item>
+      <title>2017-04-05, du</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-04-05-du/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-04-05-du/</guid>
+      <description>du 100G crashplan/ http://www.linfo.org/du.html</description>
+    </item>
+    
+    <item>
+      <title>2017-04-06, secrets, docker, vortex keyboards, brickerBot</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-04-06-secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-04-06-secrets/</guid>
+      <description>secrets in docker secret secret I&amp;rsquo;ve got a secret. It looks like hter is some stuff that is in docker 1.13.1 that allows you to do native secret storage&amp;hellip;. swarm-secrets-in-action/
+vortex keyboards I have two different vortex keyboards, the pok3r and the core 40%. I really like vortex keyboards. the only annoything thing is that their firmwares are only released as exe files and since I dont actually have anything that runs windows anymore, this presents a problem.</description>
+    </item>
+    
+    <item>
+      <title>2017-05-01, do over</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-05-01-newmonth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-05-01-newmonth/</guid>
+      <description>new month Lets hope that I can get back in the swing of things with what I learned. The past month has been pretty chaos filled and I have not been very good at updating this. Here we go.</description>
+    </item>
+    
+    <item>
+      <title>2017-05-02, chrome</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-05-02-chrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-05-02-chrome/</guid>
+      <description>Headless chrome headless Chrome
+this allows you to run chrome headless style. This can allow you to script chrome. This could lead to some interesting things.
+kali virtual becuase I dont like to run around with extra laptops I got kali up and running virutally. Yea I know I miss a few things with it this way but I don&amp;rsquo;t mind. Kali virtualbox Networking is turning out to be a PITA, which means that the best way to do networking with Virtualbox and kali is to just use a usb wifi dongle.</description>
+    </item>
+    
+    <item>
+      <title>2017-05-10, bujo</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-05-10-bujo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-05-10-bujo/</guid>
+      <description>bullet journal conversion I have been using bullet journal for a time now and finding that the paper notebook is difficult for my lifestyle and for at work where I spend my life on the computer and I just don’t want to have to carry the notebook and my laptop with me every time. I understand that part of the concept of the bujo is to physically write things. However this is a difficult task when I carry my laptop around with me everywhere I go.</description>
+    </item>
+    
+    <item>
+      <title>2017-05-11, things</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-05-11-things/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-05-11-things/</guid>
+      <description>Git all the things Git is fantastic and I try to use it wherever I can. However outside of git, source control is a must. If a system does not support source control or version-ing then you need to make something that does. F5 does not do an elegant source control. So, I wrote an interface for the rest API that run every hour in Jenkins. It downloads the irule data then adds it to git.</description>
+    </item>
+    
+    <item>
+      <title>2017-05-12, akamai</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-05-12-akamai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-05-12-akamai/</guid>
+      <description>akamai user segmentation cloudlet Akamai is a massive CDN. When someone needs to do an A-B test or a phased rollout a cdn makes things a bit tricky. There are these things called cloudlets that the cdn can leverage to do other magic tasks. One of those tasks is an AB test. Where when you have a cached paged the cloudlet can be configured to tunnel through the cache and send the traffic for a various experiment back to the origin.</description>
+    </item>
+    
+    <item>
+      <title>2017-05-16, pi</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-05-16-pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-05-16-pi/</guid>
+      <description>SSH Sometimes you jsut need to ssh in to a specific port on a host, becuase well running ssh on a standard port is often a bad idea. ssh asdfasdf -p 80` (lowercase p)
+scp Again if ssh is then running on a different port you are going to need to use scp on a different port. A similar syntax is needed for that.
+scp -P 80 &amp;hellip; # Use port 80 to bypass the firewall, instead of the scp default (uppercase P)</description>
+    </item>
+    
+    <item>
+      <title>2017-06-07, tmux, sublime, ranger, grep</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-06-07-tmux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-06-07-tmux/</guid>
+      <description>sublime from the terminal I live in a terminal but I am not great at vim yet so lets embed sublime instead of vim&amp;hellip;
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+this creates a symlink for the sublime cli command so you can run
+sublime filename (replace &amp;ldquo;filename&amp;rdquo; by an actual file name) or sublime foldername (replace &amp;ldquo;foldername&amp;rdquo; by an actual folder name) or even sublime . (to open the entire current directory)</description>
+    </item>
+    
+    <item>
+      <title>2017-06-12, bitbar</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-06-12-bitbar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-06-12-bitbar/</guid>
+      <description>BitBar Bitbar is a handy extension that you can use with Macos that allows things in the notification bar at the top of the screen. The excellent part about it, is that it uses python to render the data. Python rocks which means it is super simple to get any and all data in there. linke to find bitbar is here: bitbar</description>
+    </item>
+    
+    <item>
+      <title>2017-06-21, profiling</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-06-21-profiling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-06-21-profiling/</guid>
+      <description>Node profiling There is a handy dandy performance profileer that I made use of today. nodejs-dashboard nodejs-dashboard It is easily configured to be added at runtime with: nodejs-dashboard -- node -r nodejs-dashboard index.js if you check the git repo you can see all the magic that can be done with the dashboards. I find it useful for heap usage and cpu.
+docker gotcha There is a feature in docker called autorestart.</description>
+    </item>
+    
+    <item>
+      <title>2017-06-28, i am groot</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-06-28-iamgroot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-06-28-iamgroot/</guid>
+      <description>changing root username to groot First things first, if you are going to do this you should have a root shell already open. If you do any of these commands as sudo, odds are good it won&amp;rsquo;t work.
+Honestly who doesn&amp;rsquo;t want to see all of the old files owned by root suddenly become owned by groot?!?! This has got to be the best worst idea I have had in a while.</description>
+    </item>
+    
+    <item>
+      <title>2017-08-05, ssh things</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-08-04-ssh-things/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-08-04-ssh-things/</guid>
+      <description>SSH I use ssh all day all the time. But usually it is pretty standard login, shared keys and move into my tmux session. Other times its used a saved command to open a tunnel and doing some port forwards. Today and the last couple days I have tarted to fill in some of the bits and pieces to really configure ssh. That and I want to use ansible more to make my life easier, which of course leverages ssh quite a bit to get the job done.</description>
+    </item>
+    
+    <item>
+      <title>2017-08-19 ssh-key-rotation</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-08-19-ssh-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-08-19-ssh-keys/</guid>
+      <description>#SSH Key rotation! In some circles ssh key rotation is terrifying and considered a massive headache. In security circles the lack of key rotation is a ripe target to compromise ALL the things. How do we solve this?
+Well you can write a bash script that is going to go through a list of hosts and then do an ssh-copy-id to each host, but this is not going to invaliadate the old keys it is just going to dd the new ones.</description>
+    </item>
+    
+    <item>
+      <title>2017-08-23, macos docker</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-08-23-macosdocker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-08-23-macosdocker/</guid>
+      <description>Local macos docker file system filled up Docker for macos has a bit of a bug that over time this file grows and chews up the availaable storage space that the daemon and containers are allowed to use. Even if you remove all containers, volumes and images, space usage will persist. The fix is to simply remove this one file. rm ~/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/Docker.qcow2 and then restart docker I found it on docker fourms here: no-space-left-on-device-error</description>
+    </item>
+    
+    <item>
+      <title>2017-08-25, inodes</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-08-25-dfi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-08-25-dfi/</guid>
+      <description>filespace and inodes Reminder - you can run out of inodes on a system and still have plenty of space on it. We were seeing this error with jenkins Aug 25, 2017 3:14:33 PM net.bull.javamelody.JavaLogger warn WARNING: exception while collecting data: java.io.FileNotFoundException: /apps/jenkins/monitoring/xxx/http66ee24a2ec3f919f7da7c6a424e9dba4d059e1de.rrd (No space left on device) java.io.FileNotFoundException: /apps/jenkins/monitoring/xxx/http66ee24a2ec3f919f7da7c6a424e9dba4d059e1de.rrd (No space left on device)
+when I ran a df -h i saw $ df -h Filesystem Size Used Avail Use% Mounted on &amp;hellip; /dev/mapper/jenkinsvg-jenkinslv 20G 6.</description>
+    </item>
+    
+    <item>
+      <title>2017-08-26, reverse shell</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-08-26-reverseshell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-08-26-reverseshell/</guid>
+      <description>Whats a reverse shell? It’s that turtle that you jump on and it bounces off a wall and comes back at you right? Not quite but, you aren’t alone in ignorance. It is surprising that the number of folks that don’t actually know what a reverse shell is. Long story short, it is when one computer connects to another computer but the initiating computer forwards their shell to the destination. It is commonplace that a reverse shell happens during an attack or as part of a pentest.</description>
+    </item>
+    
+    <item>
+      <title>2017-08-30, furl</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-08-30-furl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-08-30-furl/</guid>
+      <description>Furl Furl is a python package that enables the manipulation and use of urls. I think it is fantastic and much more readable than the string concat methods employed by many. github - furl
+How does it work?
+from furl import furl f = furl(&amp;#39;https://someapi/v2/checks/data&amp;#39;) query_string={&amp;#34;range&amp;#34;:&amp;#34;last_hour&amp;#34;, &amp;#34;metrics&amp;#34;: [&amp;#34;server_time&amp;#34;, &amp;#34;dom_load_time&amp;#34;,&amp;#34;start_render&amp;#34;, &amp;#34;onload_time&amp;#34;,&amp;#34;visually_complete&amp;#34;,&amp;#34;fully_loaded_time&amp;#34;,&amp;#34;speed_index&amp;#34;],&amp;#34;api_key&amp;#34;:&amp;#34;xxxxxx&amp;#34;} f.args = query_string print f.url What it does is abstract the elements of the url. This allow it to start with a base url and then very easily add query string params to it.</description>
+    </item>
+    
+    <item>
+      <title>2017-09-01, python args kwargs functions</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-09-01-args-kwargs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-09-01-args-kwargs/</guid>
+      <description>Python functions, *args, **kwargs Why use args and kwargs with python? A little while ago I did not understand kwargs, I find that to write about something helps build an understanding of a topic and it allows the information to be digested, much like rubber ducking. Also, because learning is fun and filling in knowledge gaps is better, here we go. rubberduckdebugging
+I am going to borrow a number of examples from the digital ocean tutorial about this because the way that they explained it really helped me to understand it.</description>
+    </item>
+    
+    <item>
+      <title>2017-09-10 vim plugins, rg</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-09-10-vim-rg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-09-10-vim-rg/</guid>
+      <description>VIM Evil, evil, vim or is that zim because vim isn’t evil but neither was zim? Nope definitely vim, that’s whatI want to talk about today. That and ripgrep. I find myself bouncing between vim and sublime depending on what I am doing. Either way I went back into vim today and found a nice plugin that leverages ripgrep. The repo for ripgrep can be found here: ripgrep . Although it is a simple install on mac with abrew install ripgrep,you will need to install the rg binary in order to get the vim plugin to work right.</description>
+    </item>
+    
+    <item>
+      <title>2017-10-02 git refresher</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-10-02-git-refresh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-10-02-git-refresh/</guid>
+      <description>git branching How about a git refresher moment to remember how to use git. Different people and places have different ideas behind how source control should be handled. I have started a new job so I thought that it would be a good idea to refresh my knowledge on git branching strategies.
+Alright we have done a clone of a repo, next step is to do a branch. Part of that step is doing a checkout of the master</description>
+    </item>
+    
+    <item>
+      <title>2017-10-03 chef</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-10-03-chef-finder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-10-03-chef-finder/</guid>
+      <description>expose hidden files on a mac Finder hides all sorts of stuff, let expose that
+defaults write com.apple.Finder AppleShowAllFiles true defaults write -g AppleShowAllFiles -bool true killall Finder Lets relearn chef vagrant init bento/ubuntu-14.04 vagrant up vagrant ssh sudo apt-get update sudo apt-get -y install curl curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P chefdk -c stable -v 2.0.28 #gets the latest version of chefdk and installs it simple enough now vagrant has chef and we can do chef local type configs and changes.</description>
+    </item>
+    
+    <item>
+      <title>2017-10-05 quick wins</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-10-05-quick-hits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-10-05-quick-hits/</guid>
+      <description>Today is going to be a quick one wiht some &amp;ldquo;scripts&amp;rdquo; and or functions that were given to me and a couple that I wrote on my own. simply create the bash script add them to a folder and then add that path to your $PATH variable in your bash_profile.
+ssh-trust This one was given to me from a co-worker and solves the issue of validating a changed ssh-host key when that host changes.</description>
+    </item>
+    
+    <item>
+      <title>2017-10-24 terraform and fixers </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-10-24-new-job/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-10-24-new-job/</guid>
+      <description>new location I suppose I ahve taken a little bit of a break lately because I have been working at a new job and doing all sorts of everything. I am going to try and add content and learning more often
+terraform I feel like i have a whole other blog post that I will need to write about terraform that i think that is going to have to be another time.</description>
+    </item>
+    
+    <item>
+      <title>2017-10-25 something today </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-10-25-todays-thing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-10-25-todays-thing/</guid>
+      <description>#Forcing vim I have been trying to force myself to use vim strictly for some time now.. I am giving it another go. Sometimes it works other times less so, but today I am going to give it a try.</description>
+    </item>
+    
+    <item>
+      <title>2017-10-27 telegraf influxdb </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-10-27-tik_stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-10-27-tik_stack/</guid>
+      <description>Telegraf There is a tool out there called telegraf, which is kind of interesting. It takes metrics and then forwards them on to a time series database, such as influx. telegraf getting started This may not seem like that big of a deal, but it can be extra useful, when ingesting metrics like cpu and memory or other simple type metrics, which would require a script to be constantly running. There is a nice thing that once you get it configured to run on a server just adding .</description>
+    </item>
+    
+    <item>
+      <title>2017-10-30 vim for the win</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-10-30-monday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-10-30-monday/</guid>
+      <description>VIM I am still trying to force feed myself vim. As a part of that effort I have included this in my vimrc ```noremap &amp;quot;&amp;quot; noremap! noremap &amp;quot;&amp;quot; noremap! noremap &amp;quot;&amp;quot; noremap! noremap &amp;quot;&amp;quot; noremap! which should turn off all of my arrow keys and force me to navigate the world with vim arrows at least while in vim. This is all in an effort to try and get myself to get better at vim.</description>
+    </item>
+    
+    <item>
+      <title>2017-11-22 something witty</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-11-22-witty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-11-22-witty/</guid>
+      <description>cr-48 A while back when google was first betaing the chromebook they sent out these machines called cr48 which were literally beta chromebooks beofre there were chromebooks. I was a part of that program and as a result I have one of these kicking around. My macbook air died about a month ago, as a result I have been going through all of my old hardware trying to find some type of machine that I can get things done on.</description>
+    </item>
+    
+    <item>
+      <title>2018_06_06_ssh_slack_freenas</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-06-06-ssh_slack_freenas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-06-06-ssh_slack_freenas/</guid>
+      <description>ssh things say that you lost your ssh public key but still had a private one&amp;hellip;. you can get the public from teh private by running ssh-keygen -y -f ~/.ssh/id_rsa &amp;gt; ~/.ssh/id_rsa.pub
+done and simple
+slack annoyer sometimes you jstu nee dto repeat a message to someone for an extended period of time
+from slackclient import SlackClient import sys #python junk.py &amp;lt;user&amp;gt; &amp;#34;message&amp;#34; &amp;lt;repeat&amp;gt; &amp;lt;interval seconds&amp;gt; slack_token = &amp;#34;your token here&amp;#34; sc = SlackClient(slack_token) user = sys.</description>
+    </item>
+    
+    <item>
+      <title>2018_07_31_python_webserver</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-07-31-python-websever/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-07-31-python-websever/</guid>
+      <description>python http server simple startup of a python webserver for mac in your local directory:
+python2: python -m SimpleHTTPServer
+python3 with cgi: python -m http.server --cgi
+python3 normal: python3 -m http.server
+i mean what can go wrong here really?!?
+source: start-web-server-python-3</description>
+    </item>
+    
+    <item>
+      <title>2018_08_01_aws_cli_bundled_install</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-08-01-aws_cli_bundled_install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-08-01-aws_cli_bundled_install/</guid>
+      <description>quick and dirty install of the aws cli sometimes you need to install the aws cli and you just need to get it done. I often use this when I am doing a bash install of it, for some kind of automation.
+#download it $ curl &amp;#34;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip&amp;#34; -o &amp;#34;awscli-bundle.zip&amp;#34; #unzip it $ unzip awscli-bundle.zip #run it $ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws #if you dont have root you can run it here $ .</description>
+    </item>
+    
+    <item>
+      <title>2018_08_02_mac_key_repeat_python_ping</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-08-02-key_repeat_macos_python_ping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-08-02-key_repeat_macos_python_ping/</guid>
+      <description>setting up mac keyboards key repeat with a new laptop means that you need to make all the changes to all the things. One of the annoyances that I had was the key repeat. Yes you can change this in the gui but why would I want to do it there when I can do it in the terminal instead&amp;hellip;
+# read what everything is set at $ defaults read -g InitialKeyRepeat $ defaults read -g KeyRepeat # write some new values to the things.</description>
+    </item>
+    
+    <item>
+      <title>2018-01-02 new year new everything </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-01-02-new-year/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-01-02-new-year/</guid>
+      <description>New year well its a new year and I am back at work. There has been a pretty big drought or posts since the last one, lets fill in the blanks a bit. This blog is going to get some different information this year. I think that I want to add in some aprenting stuff that I learned. At the end of last year we welcomed a baby girl in to the world.</description>
+    </item>
+    
+    <item>
+      <title>2018-01-03 macbook_pro_keyboard</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-01-03-keyboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-01-03-keyboards/</guid>
+      <description>Macbook pro keyboard The macbook pro keyboard is terrible. I have a whole bunch of differnt mechanical keyboards. There are times however that resting a mechnical keyboard on the top of the existing keyboard would be nice. This creates an issue where keys will get pressed on the built in keyboard. The solution for this is to install kayabiner elements. Then there is an option in the preferences named devices and an option to disable the existing keyboard if certain usb keyboards are plugged in.</description>
+    </item>
+    
+    <item>
+      <title>2018-01-04 processor_speculation </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-01-04-processor_speculation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-01-04-processor_speculation/</guid>
+      <description>Processor Speculative Execution There is a nasty hardware flaw out there that has been found, which involves just about every cpu in current use, it is essentially an issue with the mem cache on and how out of order processesing happens. which allow a predictive branch to happen where you can predict where something is going to be written. Then you read that location and essentially get a memory shim that sees everything.</description>
+    </item>
+    
+    <item>
+      <title>2018-01-05 gitmask </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-01-05-gitmask/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-01-05-gitmask/</guid>
+      <description>Friday Running rspec tests in jenkinsfiles today. It actually went prett easy&amp;hellip; Build the docker images and then inside of it fire the docker run command for rspec and the exit code is caught from the sh in the jenkins step.
+Gitmask coding without a trace&amp;hellip; this looks kind of fun to make commits and whatnot but do it so no one knows who it is or where it came from&amp;hellip; Just think of all the fun things that can be done with this&amp;hellip; https://www.</description>
+    </item>
+    
+    <item>
+      <title>2018-01-08 git_clean_push</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-01-10-git_clean_push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-01-10-git_clean_push/</guid>
+      <description>git clean quick and easy way to delete files that are untracked in a git repo &amp;lsquo;git clean -df&amp;rsquo; this will delete any untracked files. It is often useful to do this after you have been doing some work and have a couple temp files that you don&amp;rsquo;t want around anymore. No more deleting a bunch of junk. Let git do it for you.
+git push origin current branch working with feature branches means that you will need to push up those branches&amp;hellip; here is an alias that will push origin the current branch alias gpox=&amp;lsquo;git push origin git rev-parse --abbrev-ref HEAD&amp;rsquo; OR</description>
+    </item>
+    
+    <item>
+      <title>2018-01-08 vim_tutorials</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-01-08-vim_tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-01-08-vim_tutorials/</guid>
+      <description>vim tutorial stuff Vim is vim and it does things that are sometimes good&amp;hellip; Ha well you know what I mean there is a good article about the benefits of using vim instead of some kind of heavy editor. https://medium.com/@caspervonb/why-i-still-use-vim-67afd76b4db6 http://vimcasts.org/</description>
+    </item>
+    
+    <item>
+      <title>2018-01-16 apple_watch_return</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-01-16-apple_watch_return/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-01-16-apple_watch_return/</guid>
+      <description>returning an apple watch it tricky apparently if you find an apple watch and try to find its owner, the only thing that you can do is drop it off at an apple store&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>2018-01-31 ascii art</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-01-31-ascii_art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-01-31-ascii_art/</guid>
+      <description>ascii art because why not, here it a git repo that links to some ascii art ascii-emoji
+macro-ing ergodox There is a firmware out there called qmk. QMK is awesome and you can program your custom keyboards to do just about anythin. I wanted to write a macro for ¯\_(ツ)_/¯ because I got sidetracked and went down the rabbit hole.
+The tricky part is sending the hex codes through to the OS.</description>
+    </item>
+    
+    <item>
+      <title>2018-02-14 guard_clause</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-14-guard_clause/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-14-guard_clause/</guid>
+      <description>guard clauses Because I did not know the term for this, a guard clause is essentially a check if not null or similar empty set checks in code&amp;hellip; example for ruby is return [] if instances.empty? Filling in holes of knowledge and writing them down becaue otherwise I may not retain them.</description>
+    </item>
+    
+    <item>
+      <title>2018-02-15 cargo_culting </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-15-cargo_culting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-15-cargo_culting/</guid>
+      <description>cargo cult programming Cargo cult programming is a style of computer programming characterized by the ritual inclusion of code or program structures that serve no real purpose Cargo_cult_programming
+Shotgun debugging: A process of making relatively un-directed changes to software in the hope that a bug will be perturbed out of existence. Shotgun_debugging</description>
+    </item>
+    
+    <item>
+      <title>2018-02-19 git_revert </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-19-git_revert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-19-git_revert/</guid>
+      <description>git revert Yey more git. I am still not the greatest at git, therefore here is the step by step on how to revert a PR/merge from git.
+first checkout the master branch: Git checkout master then run a git log and get the id of the merge commit. git log then revert to that commit: git revert -m 1 &amp;lt;merge-commit&amp;gt; With ‘-m 1’ we tell git to revert to the first parent of the mergecommit on the master branch.</description>
+    </item>
+    
+    <item>
+      <title>2018-02-20 firefox_bs </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-20-firefox_bs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-20-firefox_bs/</guid>
+      <description>Firefox Alright chrome has been using a ton of battery on my mac so I am going back to firefox. Supposedly firefox is much better on the battery than chrome. We will give this a try and see if it ends up working.
+Meaningless words here we are again trying to make the daily blogging work, lets see if it sticks better now. It is pretty tough to do now that there is a baby at home and I only have so much time for my own projects.</description>
+    </item>
+    
+    <item>
+      <title>2018-02-20 mp3_bitrate </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-22-mp3_bitrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-22-mp3_bitrate/</guid>
+      <description>Mp3 i wanted to find the bitrate on a file in the terminal and i found this bashrc function&amp;hellip;
+echo `basename &amp;#34;$1&amp;#34;`: `file &amp;#34;$1&amp;#34; | sed &amp;#39;s/.*, \(.*\)kbps.*/\1/&amp;#39; | tr -d &amp;#34; &amp;#34; ` kbps } </description>
+    </item>
+    
+    <item>
+      <title>2018-02-26 git is hard </title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-26-git_is_hard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-26-git_is_hard/</guid>
+      <description>git i am bad at git, here is my attempt at rebase and cleaning up git rebase -i ; where the commit hash is the one before yours the reword all of hte commits except for your latest one, the latest one you pick then check the git log to make sure that you only have one commit finally on your feature branch to a git push --force which will force your local into the branch you are working on and hopefully everything will get squashed</description>
+    </item>
+    
+    <item>
+      <title>2018-02-27 shasum_markdown</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-27-shasum_markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-27-shasum_markdown/</guid>
+      <description>shasum Getting a shasum on something&amp;hellip; useful so lets do it with this shasum -a 256 &amp;lt;filename&amp;gt;
+mastering markdown n Now if only i could keep all of this in my head mastering-markdown</description>
+    </item>
+    
+    <item>
+      <title>2018-02-28 git gc</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-28-git_gc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-28-git_gc/</guid>
+      <description>git gc git gc .. while useful can be pretty nasty. Make sure that you don&amp;rsquo;t do a git gc --prune=now unless you really want to clean out your repos. git gc Runs a number of housekeeping tasks within the current repository, such as compressing file revisions (to reduce disk space and increase performance) and removing unreachable objects which may have been created from prior invocations of git add.</description>
+    </item>
+    
+    <item>
+      <title>2018-03-06 go-things</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-03-06-go-things/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-03-06-go-things/</guid>
+      <description>Writing go in vim It is pretty useful if you are writing go in vim to have this added to your vimrc au BufWritePost *.go !gofmt -w % It will auto format your go files to make sure they don&amp;rsquo;t suck. This is super important as I am crappy at formatting.</description>
+    </item>
+    
+    <item>
+      <title>2018-03-13 gitignore notes</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-03-13-gitignore_notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-03-13-gitignore_notes/</guid>
+      <description>gitignore notes there is a bunch of idfferent ways to ignore files in git.. gitignore</description>
+    </item>
+    
+    <item>
+      <title>2018-03-14 problems</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-03-14-solve_problem_not_working/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-03-14-solve_problem_not_working/</guid>
+      <description>Solve a problem by not working on it. It’s 3:30 am standing holding my daughter, my t-shirt has puke on it from the 7pm feeding.
+Daughter finally falls asleep I hand her off to my wife. And go to sleep. But can’t sleep. That thing that happened earlier the day before and all those other things the week before. They crept into my head and I’m wide awake 4:00, 4:30, 5:00, all roll by and I’m wallowing in it.</description>
+    </item>
+    
+    <item>
+      <title>2018-12-02 dot-file-automation</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-12-02-dot-file-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-12-02-dot-file-automation/</guid>
+      <description>dot file automation Sharpen and clean your tools to make them last longer. Hone your tools to make them more precise. The tools of a SRE start with the terminal. The terminal is honed sharp with dotfiles.
+Live your life long enough in a terminal and tweaks and customizations happen. Live longer and when those tweaks are lost from a catastrophe or when you switch machines, you will be hamstrung and saddened going back to nothing.</description>
+    </item>
+    
+    <item>
+      <title>2018-12-05 sudo-make-me-a-sandwich</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-12-05-sudo-make-me-a-sandwich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-12-05-sudo-make-me-a-sandwich/</guid>
+      <description>sudo make me a sandwich, then I&amp;rsquo;ll pwn your fridge Sudo is a program for Unix-like computer operating systems that allows users to run programs with the security privileges of another user. wikipedia-sudo
+Let’s say that we have a folder named /luggage/. The luggage is carrying some incredibly valuable things. Rincewind and twoflower are two users who have been traveling with this luggage for sometime. Because, rincewind doesn&amp;rsquo;t want twoflower to read the octavo, but is fine if he looks at the camera, both which are located in the in the luggage.</description>
+    </item>
+    
+    <item>
+      <title>2018-12-11 netcat-portscanner</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-12-11-netcat-portscanner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-12-11-netcat-portscanner/</guid>
+      <description>netcat netcat can work like a portscanner. If it is the only tool that you have you make do. this is going to scan localhost across all of the ports
+nc -zv 127.0.0.1 1-65535 </description>
+    </item>
+    
+    <item>
+      <title>2019-01-02 git-secrets</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-01-02-git-secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-01-02-git-secrets/</guid>
+      <description>git-secrets I came across this handy piece of software today, called git-secrets. It is made by awslabs and it acts as a git-hook that will stop you form doing stupid things. https://github.com/awslabs/git-secrets</description>
+    </item>
+    
+    <item>
+      <title>2019-02-12 certs</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-02-12-certs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-02-12-certs/</guid>
+      <description>self signed certs Genning certs is always a pita, luckily I found a quick and easy way from the folks over at spiderlabs, to do it.. gen-self-signed-cert.sh
+#!/bin/bash openssl genrsa -out my.key 2048 openssl req -new -x509 -days 3650 -key my.key -out my.crt -subj &amp;#34;/&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>2019-04-09 github-one-liner-and-powershell-curl</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-04-09-github-one-liner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-04-09-github-one-liner/</guid>
+      <description>Github releases There is a nice way to get the latest release from a github repo. as long as it gets tagged as release. I like to be able to pull down the latest version of a release for specific code in automated builds. This helps that.
+Use curl to get the JSON response for the latest release Use grep to find the line containing file URL Use cut and tr to extract the URL Use wget to download it</description>
+    </item>
+    
+    <item>
+      <title>2019-04-22 sql-server-terminal</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-04-22-sql-server-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-04-22-sql-server-terminal/</guid>
+      <description>sql server I needed to connect to a sql db this morning and I didn&amp;rsquo;t have a client. Docker to the rescue! docker run -it mysql /bin/bash mysql -u &amp;lt;myuser&amp;gt; -p -h &amp;lt;myhost&amp;gt; &amp;lt;mydatabase&amp;gt; and done. when using the -p flag it will prompt you for the password instead of having it in the terminal. Simple easy and connected.</description>
+    </item>
+    
+    <item>
+      <title>2019-05-01 curl-redirects</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-05-01-curl-redirects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-05-01-curl-redirects/</guid>
+      <description>curl redirects Sometimes you want to be able to follow a redirect chain to see what is going on. you can do that pretty easily with curl. Toss in your url and hit enter then follow the breadcrumbs.
+curl -v -L http://google.com 2&amp;gt;&amp;amp;1 | egrep &amp;#34;^&amp;gt; (Host:|GET)&amp;#34; $ curl -v -L http://google.com 2&amp;gt;&amp;amp;1 | egrep &amp;#34;^&amp;gt; (Host:|GET)&amp;#34; &amp;gt; GET http://google.com/ HTTP/1.1 &amp;gt; Host: google.com &amp;gt; GET http://www.google.com/ HTTP/1.1 &amp;gt; Host: www.</description>
+    </item>
+    
+    <item>
+      <title>2019-06-06 pythonic-list-find</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-06-06-pythonic-list-find/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-06-06-pythonic-list-find/</guid>
+      <description>finding an item in a list python can do a lot of smart things, lets use the python way of finding items in a list.
+#python 3 tags=[ { &amp;#34;Key&amp;#34;: &amp;#34;CreationDate&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;201904011158&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Name&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;mymagicserver&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;aws:autoscaling:groupName&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;my-rad-asg&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Environment&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;cloudy&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;name&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;john&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Department&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;sporting goods&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Auto-Off&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;no&amp;#34; } ] data = list(filter(lambda x: x[&amp;#34;Key&amp;#34;] == &amp;#34;aws:autoscaling:groupName&amp;#34; , tags)) print(data[0][&amp;#34;Value&amp;#34;]) ##brute force way: def bruteforce(mylist) for item in mylist: if item[&amp;#34;Key&amp;#34;] == &amp;#34;aws:autoscaling:groupName&amp;#34;: return item[&amp;#34;Value&amp;#34;] print(bruteforce(tags)) </description>
+    </item>
+    
+    <item>
+      <title>2019-08-20 ebs-grow</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-08-20-ebs-grow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-08-20-ebs-grow/</guid>
+      <description>need moar ebs AWS EBS volumes. Yes I know that everything in AWS should be immutable and disposable. But sometimes they aren&amp;rsquo;t. We don&amp;rsquo;t need to go into the philosophical rammifcations of that what we need is a fix. First we find the instance, then the volume, then we grow the volume in aws, then we grow the volume on the box
+Lets go and describe the instance
+$ aws ec2 describe-instances --filters Name=tag:Name,Values=&amp;#39;MyMagicServer&amp;#39; | jq &amp;#39;.</description>
+    </item>
+    
+    <item>
+      <title>2019-11-12 git-codeowners-gpox</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-11-12-git-codeowners-gpox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-11-12-git-codeowners-gpox/</guid>
+      <description>Some git notes I like git I user git a lot, I did not know about CODEOWNERS, this is a nice feature.
+automatic PR approver to a repo Adding codeowners can allow for automatic PR approvers for branches or all things github.com about-code-owners
+You can use a CODEOWNERS file to define individuals or teams that are responsible for code in a repository. To use a CODEOWNERS file, create a new file called CODEOWNERS in the root, docs/, or .</description>
+    </item>
+    
+    <item>
+      <title>2020-02-19 ec2, meta-data</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-02-19-ec2-things/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-02-19-ec2-things/</guid>
+      <description>Yea it has been a long time since I wrote notes and things but I feel like there are some things to take note on.
+EC2 things of interest reading the userdata of an instance There are plenty of times that I need to see what the userdata looks like of my instance. ssh into the box. curl http://169.254.169.254/latest/user-data simple as that
+curl http://169.254.169.254/latest/user-data #!/bin/bash .... rerunning userdata You should really never rerun userdata but if you are debugging things and need to do things.</description>
+    </item>
+    
+    <item>
+      <title>2020-02-28 bfg clean local</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-02-28-bfg-local-cleanup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-02-28-bfg-local-cleanup/</guid>
+      <description>BFG local cleanup This is a thing that you can do to clean up your local git repo AFTER doing a commit and before pushing to origin.
+PREWORK Download BFG.jar https://rtyley.github.io/bfg-repo-cleaner/ https://repo1.maven.org/maven2/com/madgag/bfg/1.13.0/bfg-1.13.0.jar Create directory structure mkdir -p ~/.binaries/ Move BFG into place, chmod it
+mv bfg-1.13.0.jar ~/.binaries/ &amp;amp;&amp;amp; chmod 777 ~/.binaries/bfg-1.13.0.jar setup BASH_PROFILE echo &amp;#39;alias bfg=&amp;#34;java -jar ~/.binaries/bfg-1.13.0.jar&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile echo &amp;#34;export PATH=/Users/$(whoami)/.binaries:$PATH&amp;#34; &amp;gt;&amp;gt; ~/.bash_profile source it source ~/.bash_profile Cleaning repo with BFG Now what do we do.</description>
+    </item>
+    
+    <item>
+      <title>2020-03-04 aws encrypted keys</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-03-04-aws-encrypted-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-03-04-aws-encrypted-keys/</guid>
+      <description>AWS credential_process There is a setting in the aws config that allows AWS to source the credentials externally. This can be super handy if you don&amp;rsquo;t want to store those as plain text things.
+It is called &amp;ldquo;credential process&amp;rdquo;. We can use this in conjunction with native openssl to give you a poor mans encrypted aws keys.
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sourcing-external.html
+First we will take the aws credentials and dump them to a temp file this is named key.</description>
+    </item>
+    
+    <item>
+      <title>2020-03-18 live dangerously</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-03-18-live-dangerously/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-03-18-live-dangerously/</guid>
+      <description>Turn off signed aps in mac I don&amp;rsquo;t want the security warning for unsigned apps. You can do this with this command on a mac.
+sudo spctl --master-disable
+This is terrible and prolly shouldn&amp;rsquo;t be done, but you know sometimes you need to.
+You can also yank things out of quarantine with this
+xattr -r -d com.apple.quarantine /path/to/dir</description>
+    </item>
+    
+    <item>
+      <title>2020-04-30 unique .gitconfig</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-04-30-unique-gitconfig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-04-30-unique-gitconfig/</guid>
+      <description>using multiple .gitconfig There is a neat feature in .gitconfig that will allow you to use uniueq gitconfig depending on the folder structure that you have.
+For example add this to your global gitconfig: This is assuming that ~/github has one org of repos, and ~/git has another, much lke personal and corporate git repos
+[includeIf &amp;#34;gitdir:~/git/&amp;#34;] path = ~/git/.gitconfig [includeIf &amp;#34;gitdir:~/github/&amp;#34;] path = ~/github/.gitconfig Then if you add this is the correpsonding location, the user name/email will be different in each folder structure.</description>
+    </item>
+    
+    <item>
+      <title>2020-05-08 playing with ssm</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-05-08-ssm-scraping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-05-08-ssm-scraping/</guid>
+      <description>ssm rate limiting I was spending a little bit of time trying to scrape some ssm stuff and i figured out that there seems to be a &amp;ldquo;feature&amp;rdquo; built in to ssm that doesn&amp;rsquo;t let you do too many describes. AWS will complain and say NO BUENO if you do it to often.
+aws ssm describe-parameters | jq &amp;#39;.Parameters[]| &amp;#34;\(.Name) \(.Type)&amp;#34;&amp;#39; An error occurred (ThrottlingException) when calling the DescribeParameters operation (reached max retries: 2): Rate exceeded I thought that was kind of a nice thing to stop people from describe everythign too often.</description>
+    </item>
+    
+    <item>
+      <title>2020-06-23 Clojure 1</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-06-23-clojure-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-06-23-clojure-1/</guid>
+      <description>Clojure I am trying to learn clojure, therefore the best way that I know how to learn something is to write about it. This allows me to digest the things that I am learning. Apparently I had forgotten about this tactic for the past couple weeks, as I was trying to just read and do problems to help learn this. Therefore lets get started.
+NOTE: I am writing this as a way to digest and understand the book that I am working through entitled.</description>
+    </item>
+    
+    <item>
+      <title>2020-06-24 Clipboard</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-06-24-clipboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-06-24-clipboard/</guid>
+      <description>Iterm Clipboard Apparently there has been an option sitting in iTerm that will allow applications in the terminal to access the system clipboard and somehow I never knew about this?!? Inside the preferences-General menu there is a setting called &amp;ldquo;Selection&amp;rdquo; and then an option &amp;ldquo;Applications in terminal may access clipboard&amp;rdquo; This is life changing and certainly makes a great many things much much easier https://stackoverflow.com/a/38849483</description>
+    </item>
+    
+    <item>
+      <title>2020-06-24 Clojure 2</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-06-24-clojure-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-06-24-clojure-2/</guid>
+      <description>Clojure again Welcome back to my clojure ramblings while I try to understand more.
+Tonight we are going to pick up where we left off, and that has to do with Vectors.
+NOTE: I am writing this as a way to digest and understand the book that I am working through entitled. Living Clojure
+Vectors Vectors can be found because they are wrapped in []
+user=&amp;gt; [ :bucket 3 4 :cup ] [:bucket 3 4 :cup] user=&amp;gt; [:thing &amp;#34;other&amp;#34; :mine] [:thing &amp;#34;other&amp;#34; :mine] Vectors are similar to lists we can have a mix of types in them, and some of the same operators can be used on them.</description>
+    </item>
+    
+    <item>
+      <title>2020-06-27 Clojure 3</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-06-27-clojure-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-06-27-clojure-3/</guid>
+      <description>More Clojure Welcome back again. Last time we ended with assoc and dissoc. Tonight we will start with Sets.
+NOTE: I am writing this as a way to digest and understand the book that I am working through entitled. Living Clojure
+Sets What is a set? Sets are collections without duplicates and can be denoted with #{} Because of the nature of the set, we get a few extra methods to use on them, union difference and intersection.</description>
+    </item>
+    
+    <item>
+      <title>2020-07-08 Terraform external</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-07-08-terraform-external/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-07-08-terraform-external/</guid>
+      <description>Fun with terraform Today there was a fun problem. We needed to have terraform interrogate the current state and then make a decision based on the current state. The use case specifically was the number of service instances on an ECS cluster. If every time a deployment were to happen we would reset the desired count back to the original, then we could lose track of the current number of instances that happened as a result of scaling actions taken based on the current load.</description>
+    </item>
+    
+    <item>
+      <title>2020-09-18 BBQ</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-09-18-bbq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-09-18-bbq/</guid>
+      <description>just some thoughts on places to eat in the future There are tons of good places to get bbq in chicago, but here are some top winners
+https://chicagoculinarykitchen.com/ bbq in the burbs is chicago culinary kitchen located at 773 N. Quentin Road Palatine, IL
+Food truck / small shop that makes meat and then closes up shop when they run out of it.</description>
+    </item>
+    
+    <item>
+      <title>2020-09-21 uni headsetcontrol</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-09-21-uni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-09-21-uni/</guid>
+      <description>UNI there is a handy little thing written in go that can handle unicode lookups from the terminal. I like all things terminal so here it is.
+https://github.com/arp242/uni
+go get arp242.net/uni
+Which will then allow you to search unicode from the terminal nice and easy uni search unicorn
+headset control I use an arctis 7 for my work headset, it is pretty nice but since it is USB 2.4ghz it lacks some of the features up bluetooth.</description>
+    </item>
+    
+    <item>
+      <title>2020-10-09 aws cli input and TF state file</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-10-09-aws-terraform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-10-09-aws-terraform/</guid>
+      <description>AWS cli v2 input prompting Today I learned that there is an argument that you can pass to the aws cli and it will prompt you for the input for the command that you are trying to run. https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-parameters-prompting.html
+If you are using version 2 of the aws cli then just add --cli-auto-prompt to your command and it will make magic.
+This is good if you don&amp;rsquo;t recall what you need to have in a command so it will just ask you along the way.</description>
+    </item>
+    
+    <item>
+      <title>2020-11-11 terraform destroy gpg pinentry</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</guid>
+      <description>pinentry is broken on my mac?! try this first
+# Kill gpg-agent killall gpg-agent # Run gpg-agent in daemon mode gpg-agent --daemon Universal handoff - clipboard mac/IOS There is a feature in mac land that allows you to share clipboard between phone and computer if they are both on the same wifi along with the same apple account. This can be super useful for a variety of applications.
+Here&amp;#39;s how to turn on Handoff on your devices: On your Mac: Choose Apple () menu &amp;gt; System Preferences, then click General.</description>
+    </item>
+    
+    <item>
+      <title>2020-11-12 bfg -delete</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</guid>
+      <description>Help! I committed and pushed something dangerous to github This happens we are not perfect and from time to time mistakes are made. Thats ok we can fix it with bfg
+git add my-bad-file git commit -a -m &amp;#34;im dumb&amp;#34; git push origin master # I did not mean to do that, I did not mean to do that # Lets fix it # i am in the repo folder named my-repo rm my-bad-file git commit -a -m &amp;#34;go away&amp;#34; git push origin master cd .</description>
+    </item>
+    
+    <item>
+      <title>2020-11-12 keybase gpg signing</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</guid>
+      <description>I am borrowing this from pstadler because it is really good https://github.com/pstadler/keybase-gpg-github/blob/master/README.md
+Set up Keybase.io, GPG &amp;amp; Git to sign commits on GitHub This is a step-by-step guide on how to create a GPG key on keybase.io, adding it to a local GPG setup and use it with Git and GitHub.
+Although this guide was written for macOS, most commands should work in other operating systems as well.
+There&amp;rsquo;s a video published by Timothy Miller explaining some parts of this guide.</description>
+    </item>
+    
+    <item>
+      <title>2021-01-19 vim-jq</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</guid>
+      <description>Format json in vim If you have jq installed then all you need to do, to pretty print json is.
+:%!jq &amp;#39;.&amp;#39; Bam pretty json in vim</description>
+    </item>
+    
+    <item>
+      <title>2021-05-26 git-diff</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-05-26-git-diff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-05-26-git-diff/</guid>
+      <description>Diffing with git Diffing with git is hard so I wrote an alias in order to make my life easier.
+alias git-diff-master=&amp;#39;git diff master...`git rev-parse --abbrev-ref HEAD`&amp;#39; Run that little alias and you are good to go when you need to check what you have changed.
+bye</description>
+    </item>
+    
+    <item>
+      <title>2021-07-12 qmk-animations</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-07-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-07-12/</guid>
+      <description>#QMK animation Having a keyboard with an oled screen means that you can add things to it. This cute little bongo cat animations or other things.
+This lets you create all sorts of animations https://githubmemory.com/repo/AskMeAboutBirds/qmk-oled-animation-compressor</description>
+    </item>
+    
+    <item>
+      <title>2021-09-16 repl python</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</guid>
+      <description>Using repl to debug python.
+https://jvns.ca/blog/2021/09/16/debugging-in-a-repl-is-fun/
+what’s a REPL? REPL stands for “read eval print loop”. A REPL is a program that: reads some input from you like print(f&amp;#34;2 + 2 = {2+2}&amp;#34;) (read) evaluates the input (eval) print out the result (print) and then goes back to step 1 (loop) A couple years ago I used pry in ruby/chef a bunch and then I guess I forgot about it. Now this works for python too and it is WAY better than my print statement hell that I usually write.</description>
+    </item>
+    
+    <item>
+      <title>2022-03-14 code to path</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</guid>
+      <description>Adding code . to your terminal in order to open vscode. I like to maintain a terminal session running with just about everything that I am working on in it. Usually I work in VIM but lately I have needed to use vscode for a number of things. I like being ale to clone or switch the repo I am working on from the terminal and then open an editor directly from there.</description>
+    </item>
+    
+    <item>
+      <title>2022-04-27 github vscode</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</guid>
+      <description>Github and gitlab both have online text editors. if you are in safari and you have a repo open for either of them. All you need to do is type the period key and they will pop full fledged web editors for you. with github you are actually getting vscode with gitlab you are getting their editor. this makes me miss github for my daily work environment. but i guess there is a gitlab plugin for vscode in the web.</description>
+    </item>
+    
+    <item>
+      <title>2022-05-24 bagel sandwich the easy way</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-05-24-bagel-sandwich-the-easy-way/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-05-24-bagel-sandwich-the-easy-way/</guid>
+      <description>I love bagel and egg sandwiches and they are super easy to make with almost no cleanup.
+Bagel and egg sandwich the easy way(almost NO cleanup):
+as learned from watching a local bagel shop do it for a couple years. heat pan i think its a 12 or 16&amp;quot;, melt butter/oil to coat even nonstick pan while pan is heating take bowl, crack two eggs and whip them together - add whatever spices you want, I usually add nothing once pan is sizzling (if you toss a drop of water in it it sizzles) pour in bowl of eggs toast bagel let cook until it is just about no longer runny, take a decently big spatula fold egg in half, and then fold into quarter, press down, cook one side until it is done enough for you then flip.</description>
+    </item>
+    
+    <item>
+      <title>2022-05-26 replacing text across files</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-05-26-replacing-text-blocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-05-26-replacing-text-blocks/</guid>
+      <description>We built microservices to leverage scale.
+As a result those microservices are each in their own repos. We don&amp;rsquo;t need to get into a discussion about mono repos here, we aren&amp;rsquo;t using them.
+The example here is a gitlab pipeline file and we needed to add a new yaml anchor block to use later in the pipeline.
+We are going to look for something that we know exists, in this case: &amp;ldquo;.</description>
+    </item>
+    
+    <item>
+      <title>ansible</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-20-ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-20-ansible/</guid>
+      <description>ansible notes https://galaxy.ansible.com/ Galaxy is your hub for finding, reusing and sharing Ansible content
+https://github.com/wilmardo/ansible-role-plex repo for the plex install with ansible&amp;hellip; something for later</description>
+    </item>
+    
+    <item>
+      <title>chef</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-19-chef/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-19-chef/</guid>
+      <description>chef notes $ kitchen list $ kitchen converge ;# creates the vagrant box from the kitchen.yml $ kitchen exec -c whoami ;#fire a command from insid ethe vagrant box $ kitchen verify ;# runs the tests that are configured $ kitchen login ; # logs into the box directly gives a shell </description>
+    </item>
+    
+    <item>
+      <title>chef notes</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-19-chef-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-19-chef-notes/</guid>
+      <description>chef notes $ kitchen list $ kitchen converge ;# creates the vagrant box from the kitchen.yml $ kitchen exec -c whoami ;#fire a command from insid ethe vagrant box $ kitchen verify ;# runs the tests that are configured $ kitchen login ; # logs into the box directly gives a shell </description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-27-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-27-cli/</guid>
+      <description>shasum Getting a shasum on something&amp;hellip; useful so lets do it with this shasum -a 256 &amp;lt;filename&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-19-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-19-git/</guid>
+      <description>git revert first checkout the master branch:
+Git checkout master
+then run a git log and get the id of the merge commit.
+git log
+then revert to that commit:
+git revert -m 1 &amp;lt;merge-commit&amp;gt;
+With ‘-m 1’ we tell git to revert to the first parent of the mergecommit on the master branch. -m 2 would specify to revert to the first parent on the develop branch where the merge came from initially.</description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-19-wiki-index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-19-wiki-index/</guid>
+      <description>Wiki |-+-+-| |git | chef| ansible| |qmk | tmux| cli |</description>
+    </item>
+    
+    <item>
+      <title>qmk</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-20-qmk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-20-qmk/</guid>
+      <description>qmk notes there is a bunch of qmk stuff out there this is what you need for qmk and the ergodox ez keyboard…
+https://docs.qmk.fm/ - qmk documentation
+https://www.pjrc.com/teensy/loader_linux.html ***if you are programming it with the qmk toolbox make sure that your have karabiner elements turned off
+docker images qmk builder can be done via docker. This means that it is way easier to build than dealing with all the dependencies for building, just use docker.</description>
+    </item>
+    
+    <item>
+      <title>roasting log</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-08-roasting-log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-08-roasting-log/</guid>
+      <description>Roasting log |-+-+-|
+3/16 inside costa rican sonora temp:68 start weight: 4.0 oz end weight: 3.45 oz watt/time temp - time preheat: 275 325 - 7:15 650 4min 200 - 0:30 350 - 8:50 800 4min 225 - 1:15 375 - 9:50 250 - 1:45 400 - 11:10 drop 11:10 275 - 3:30 300 - 5:00 |-+-+-|
+3/2 inside ethopia ugaro temp:68 start weight: 4.0 oz end weight: 3.4 oz watt/time temp - time preheat: 275 175 - :30 325 - 8:20 650 4min 200 - 1:00 350 - 9:00 800 4min 225 - 1:20 375 - 10:00 250 - 2:00 400 - 11:40 drop 13:00 275 - 4:00 300 - 5:30 |-+-+-|</description>
+    </item>
+    
+    <item>
+      <title>tmux</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-21-tmux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-21-tmux/</guid>
+      <description>vim scrolling Ctrl-b then [ then you can use your normal navigation keys to scroll around (eg. Up Arrow or PgDn). Press q to quit scroll mode.
+Selection and copying once in acroll mode spacebar character slect mode
+once in scroll mode shift+V line select mode
+once selected y copies to clipboard
+paste like normal</description>
     </item>
     
   </channel>

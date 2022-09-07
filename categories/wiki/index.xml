@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>wiki on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/categories/wiki/</link>
+    <description>Recent content in wiki on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ridingintraffic-beta.github.io/categories/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ansible</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-20-ansible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-20-ansible/</guid>
+      <description>ansible notes https://galaxy.ansible.com/ Galaxy is your hub for finding, reusing and sharing Ansible content
+https://github.com/wilmardo/ansible-role-plex repo for the plex install with ansible&amp;hellip; something for later</description>
+    </item>
+    
+    <item>
+      <title>chef</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-19-chef/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-19-chef/</guid>
+      <description>chef notes $ kitchen list $ kitchen converge ;# creates the vagrant box from the kitchen.yml $ kitchen exec -c whoami ;#fire a command from insid ethe vagrant box $ kitchen verify ;# runs the tests that are configured $ kitchen login ; # logs into the box directly gives a shell </description>
+    </item>
+    
+    <item>
+      <title>chef notes</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-02-19-chef-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-02-19-chef-notes/</guid>
+      <description>chef notes $ kitchen list $ kitchen converge ;# creates the vagrant box from the kitchen.yml $ kitchen exec -c whoami ;#fire a command from insid ethe vagrant box $ kitchen verify ;# runs the tests that are configured $ kitchen login ; # logs into the box directly gives a shell </description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-27-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-27-cli/</guid>
+      <description>shasum Getting a shasum on something&amp;hellip; useful so lets do it with this shasum -a 256 &amp;lt;filename&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-19-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-19-git/</guid>
+      <description>git revert first checkout the master branch:
+Git checkout master
+then run a git log and get the id of the merge commit.
+git log
+then revert to that commit:
+git revert -m 1 &amp;lt;merge-commit&amp;gt;
+With ‘-m 1’ we tell git to revert to the first parent of the mergecommit on the master branch. -m 2 would specify to revert to the first parent on the develop branch where the merge came from initially.</description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-19-wiki-index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-19-wiki-index/</guid>
+      <description>Wiki |-+-+-| |git | chef| ansible| |qmk | tmux| cli |</description>
+    </item>
+    
+    <item>
+      <title>qmk</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-20-qmk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-20-qmk/</guid>
+      <description>qmk notes there is a bunch of qmk stuff out there this is what you need for qmk and the ergodox ez keyboard…
+https://docs.qmk.fm/ - qmk documentation
+https://www.pjrc.com/teensy/loader_linux.html ***if you are programming it with the qmk toolbox make sure that your have karabiner elements turned off
+docker images qmk builder can be done via docker. This means that it is way easier to build than dealing with all the dependencies for building, just use docker.</description>
+    </item>
+    
+    <item>
+      <title>tmux</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2016-02-21-tmux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2016-02-21-tmux/</guid>
+      <description>vim scrolling Ctrl-b then [ then you can use your normal navigation keys to scroll around (eg. Up Arrow or PgDn). Press q to quit scroll mode.
+Selection and copying once in acroll mode spacebar character slect mode
+once in scroll mode shift+V line select mode
+once selected y copies to clipboard
+paste like normal</description>
+    </item>
+    
+  </channel>
+</rss>

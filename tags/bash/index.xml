@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>bash on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/tags/bash/</link>
+    <description>Recent content in bash on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Mar 2017 08:08:50 -0400</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2017-03-02 docker, bash, coffee</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-02-docker-hack/</link>
+      <pubDate>Thu, 02 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-02-docker-hack/</guid>
+      <description>docker reboot Every once and a while for prem docker installation a reboot is needed. There are some tools out there that can most likely do this, but today a quick and dirty bash script solved the problem.
+Step one dump all the running container IDS, today there were about 23 containers running. docker ps -q &amp;gt;&amp;gt;ids
+Next reboot sudo reboot Finally the bash script to quickly spin them all back up.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-03 ssh, bash</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-03-up-all-night/</link>
+      <pubDate>Thu, 02 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-03-up-all-night/</guid>
+      <description>bash ssh keys Good to remember if you have ssh keys setup the .ssh folder is 700 and the authorized_keys file is 644
+SSH keys are a public and private key that you store on a host that you are going to ssh in to. This key allwos fo r aecure login without having to relay a password through the terminal. It is a more secure form of authentication that the basic username and password.</description>
+    </item>
+    
+    <item>
+      <title>2017-03-01 js, karma, protractor, npm, bash, akamai</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-01-javascript-filling-in-the-missing-bits/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-01-javascript-filling-in-the-missing-bits/</guid>
+      <description>javascript and node No more just adding things to the package.json HA!
+To add an entry to your package.json&amp;#39;s dependencies: npm install &amp;lt;package_name&amp;gt; --save To add an entry to your package.json&amp;#39;s devDependencies: npm install &amp;lt;package_name&amp;gt; --save-dev version numbers and what they actually mean https://docs.npmjs.com/getting-started/semantic-versioning
+Patch releases: 1.0 or 1.0.x or ~1.0.4 Minor releases: 1 or 1.x or ^1.0.4 Major releases: * or x testing How fast can I fill in all the holes for TDD&amp;hellip; not fast enough apparently ;)</description>
+    </item>
+    
+  </channel>
+</rss>

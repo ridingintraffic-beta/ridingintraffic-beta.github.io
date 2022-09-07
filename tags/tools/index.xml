@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tools on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/tags/tools/</link>
+    <description>Recent content in tools on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ripgrep file context</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-09-06-ripgrep-filename-context-search/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-09-06-ripgrep-filename-context-search/</guid>
+      <description>rip grep tip I use ripgrep all the time and often times there are little things that can really help you find what you are serarching for. This is one of them.
+I want to find a string in a specific filename that exists in many folders. Then I want to display those resutls with some context.
+rg &amp;#39;.wait:&amp;#39; -g &amp;#39;.gitlab-ci.yml&amp;#39; --context 5 The string that I am searching for is .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>roasting on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/tags/roasting/</link>
+    <description>Recent content in roasting on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 03 Mar 2017 08:08:50 -0400</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/roasting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2017-03-03 coffee roaster</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-03-roaster-info/</link>
+      <pubDate>Fri, 03 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-03-roaster-info/</guid>
+      <description>roast Info using the kill-a-watt attached to the router for exact wattage measurements on my 1200 watt poppery II. full heat is 1000 watts with the heating coils fully isolated. Also there is a basic high temp thermometer that is simply dropped in the top
+ambient air temp is 68 degrees with 25% humidity preheat to 275 which is stable heat at 650 watts fan should be run at 100% but can dial down subtly in order to finely adjust the temps |&amp;mdash;+&amp;mdash;+&amp;mdash;|</description>
+    </item>
+    
+    <item>
+      <title>roasting log</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-03-08-roasting-log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-03-08-roasting-log/</guid>
+      <description>Roasting log |-+-+-|
+3/16 inside costa rican sonora temp:68 start weight: 4.0 oz end weight: 3.45 oz watt/time temp - time preheat: 275 325 - 7:15 650 4min 200 - 0:30 350 - 8:50 800 4min 225 - 1:15 375 - 9:50 250 - 1:45 400 - 11:10 drop 11:10 275 - 3:30 300 - 5:00 |-+-+-|
+3/2 inside ethopia ugaro temp:68 start weight: 4.0 oz end weight: 3.4 oz watt/time temp - time preheat: 275 175 - :30 325 - 8:20 650 4min 200 - 1:00 350 - 9:00 800 4min 225 - 1:20 375 - 10:00 250 - 2:00 400 - 11:40 drop 13:00 275 - 4:00 300 - 5:30 |-+-+-|</description>
+    </item>
+    
+  </channel>
+</rss>

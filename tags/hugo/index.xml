@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hugo on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ridingintraffic-beta.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2017-02-24 coffee, jekyll, hugo</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-02-24-first-friday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-02-24-first-friday/</guid>
+      <description>Today is the first day I was listening to a podcast today, arrested devops and on it was julia evans she talked about writing a blog post every day about what she learned. Originally this was done for her workshop, in order to keep track of the days and things learned. I feel like it is a good idea so I shall give it a go.
+What did I learn? Today I learned about jekyll and hugo.</description>
+    </item>
+    
+  </channel>
+</rss>

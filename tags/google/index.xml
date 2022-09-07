@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>google on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/tags/google/</link>
+    <description>Recent content in google on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 Feb 2017 08:08:50 -0400</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2017-02-26 google, analytics, fitbit, dod, open source</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2017-02-26-sunny-sunday/</link>
+      <pubDate>Sun, 26 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2017-02-26-sunny-sunday/</guid>
+      <description>February in Chicago can be less than sunny, although the sun came out today
+google analytics seems pretty easy Log in to the google page and create a site google page. Then add the tracking code to the jekyll theme and bam site tracking.
+fitbit There has been research done around the accuracy of optical heart rate monitors. I knew they were not accurate up past 150 bpm. This is because the blood is flowing too fast for the sensor to keep up with.</description>
+    </item>
+    
+  </channel>
+</rss>

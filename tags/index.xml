@@ -9,7 +9,25 @@
       <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Aug 2022 14:41:47 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Sep 2022 00:00:00 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>devops</title>
+      <link>https://ridingintraffic-beta.github.io/tags/devops/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://ridingintraffic-beta.github.io/tags/tools/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/tools/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>qmk</title>
       <link>https://ridingintraffic-beta.github.io/tags/qmk/</link>
@@ -34,6 +52,402 @@
       <pubDate>Sun, 07 Aug 2022 14:41:47 -0500</pubDate>
       
       <guid>https://ridingintraffic-beta.github.io/tags/rpi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>confluence</title>
+      <link>https://ridingintraffic-beta.github.io/tags/confluence/</link>
+      <pubDate>Mon, 06 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/confluence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://ridingintraffic-beta.github.io/tags/git/</link>
+      <pubDate>Mon, 06 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://ridingintraffic-beta.github.io/tags/markdown/</link>
+      <pubDate>Mon, 06 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>splunk</title>
+      <link>https://ridingintraffic-beta.github.io/tags/splunk/</link>
+      <pubDate>Mon, 06 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/splunk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coffee</title>
+      <link>https://ridingintraffic-beta.github.io/tags/coffee/</link>
+      <pubDate>Fri, 03 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/coffee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>roasting</title>
+      <link>https://ridingintraffic-beta.github.io/tags/roasting/</link>
+      <pubDate>Fri, 03 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/roasting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://ridingintraffic-beta.github.io/tags/bash/</link>
+      <pubDate>Thu, 02 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://ridingintraffic-beta.github.io/tags/docker/</link>
+      <pubDate>Thu, 02 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://ridingintraffic-beta.github.io/tags/ssh/</link>
+      <pubDate>Thu, 02 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>akamai</title>
+      <link>https://ridingintraffic-beta.github.io/tags/akamai/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/akamai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>https://ridingintraffic-beta.github.io/tags/aws/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ELK</title>
+      <link>https://ridingintraffic-beta.github.io/tags/elk/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/elk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://ridingintraffic-beta.github.io/tags/javascript/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>js</title>
+      <link>https://ridingintraffic-beta.github.io/tags/js/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>karma</title>
+      <link>https://ridingintraffic-beta.github.io/tags/karma/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/karma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>npm</title>
+      <link>https://ridingintraffic-beta.github.io/tags/npm/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openvpn</title>
+      <link>https://ridingintraffic-beta.github.io/tags/openvpn/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/openvpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protractor</title>
+      <link>https://ridingintraffic-beta.github.io/tags/protractor/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/protractor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proxpn</title>
+      <link>https://ridingintraffic-beta.github.io/tags/proxpn/</link>
+      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/proxpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://ridingintraffic-beta.github.io/tags/nginx/</link>
+      <pubDate>Mon, 27 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analytics</title>
+      <link>https://ridingintraffic-beta.github.io/tags/analytics/</link>
+      <pubDate>Sun, 26 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dod</title>
+      <link>https://ridingintraffic-beta.github.io/tags/dod/</link>
+      <pubDate>Sun, 26 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/dod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fitbit</title>
+      <link>https://ridingintraffic-beta.github.io/tags/fitbit/</link>
+      <pubDate>Sun, 26 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/fitbit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fitness</title>
+      <link>https://ridingintraffic-beta.github.io/tags/fitness/</link>
+      <pubDate>Sun, 26 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/fitness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://ridingintraffic-beta.github.io/tags/github/</link>
+      <pubDate>Sun, 26 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google</title>
+      <link>https://ridingintraffic-beta.github.io/tags/google/</link>
+      <pubDate>Sun, 26 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source</title>
+      <link>https://ridingintraffic-beta.github.io/tags/open-source/</link>
+      <pubDate>Sun, 26 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://ridingintraffic-beta.github.io/tags/jekyll/</link>
+      <pubDate>Sat, 25 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://ridingintraffic-beta.github.io/tags/mac/</link>
+      <pubDate>Sat, 25 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberrypi</title>
+      <link>https://ridingintraffic-beta.github.io/tags/raspberrypi/</link>
+      <pubDate>Sat, 25 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://ridingintraffic-beta.github.io/tags/ruby/</link>
+      <pubDate>Sat, 25 Feb 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>https://ridingintraffic-beta.github.io/tags/automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bagel</title>
+      <link>https://ridingintraffic-beta.github.io/tags/bagel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/bagel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eggs</title>
+      <link>https://ridingintraffic-beta.github.io/tags/eggs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/eggs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>food</title>
+      <link>https://ridingintraffic-beta.github.io/tags/food/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fstab</title>
+      <link>https://ridingintraffic-beta.github.io/tags/fstab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/fstab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://ridingintraffic-beta.github.io/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intro</title>
+      <link>https://ridingintraffic-beta.github.io/tags/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/intro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pi</title>
+      <link>https://ridingintraffic-beta.github.io/tags/pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rasberrypi</title>
+      <link>https://ridingintraffic-beta.github.io/tags/rasberrypi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/rasberrypi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recipe</title>
+      <link>https://ridingintraffic-beta.github.io/tags/recipe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/recipe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scripting</title>
+      <link>https://ridingintraffic-beta.github.io/tags/scripting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/scripting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vnc</title>
+      <link>https://ridingintraffic-beta.github.io/tags/vnc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/vnc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vpn</title>
+      <link>https://ridingintraffic-beta.github.io/tags/vpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/vpn/</guid>
       <description></description>
     </item>
     
