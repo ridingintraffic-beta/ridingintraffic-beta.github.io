@@ -1,0 +1,18 @@
+---
+layout: single
+title: '2017-03-21, dogs'
+
+---
+
+# dogs
+
+ADD took its toll and I wandered down this rabbit hole, pparently the dog greeting stretch is a thing. 
+>The Greeting Stretch is a posture used only towards someone the dog likes and with whom he is comfortable. There is also a version of this where the dog leans forward and stretches his rear legs out behind him. In the greeting stretch, you will see a relaxed ear carriage and squinty eyes. The dogs have a liquid, languid look about them. “It is very flattering to have a dog greet you in this unrestrained, friendly and very respectful manner. This greeting acknowledges your personal space and is a request for the two of you to interact.
+[the-greeting-stretch](https://www.doglove.co/the-greeting-stretch/ "the-greeting-stretch")
+
+# docker swarm
+connecting to a docker swarm and running commands against it you need to setup you local DOCKER_HOST variable 
+`export DOCKER_HOST\tcp://something`
+
+# tmux scrolling
+keyboard scrolling in tmux `ctrl+b then arrows`or pgup pgdown  hurray!

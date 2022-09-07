@@ -1,0 +1,14 @@
+---
+layout: single
+title: '2017-03-22, docker, swarm'
+
+---
+
+# docker swarm bounce
+sometimes you just need a docker swarm service to restart... right now this is the best way that i know of in order to get it to bounce.  I am sure that they is a better way  but I need to find that. 
+`docker service update --env-add UPDATE=1 hubot_opsbot-hubot`
+
+# spectacle window manager for macos
+Spectacle and its donateware yay
+[https://www.spectacleapp.com/](https://www.spectacleapp.com/ "https://www.spectacleapp.com/")
+I have a Billion windows open at all time and I am hopping between resolutions when I am at may desk and when I walk away from it,  I am going to give this window manager a try. 

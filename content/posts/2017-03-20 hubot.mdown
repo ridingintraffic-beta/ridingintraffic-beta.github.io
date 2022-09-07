@@ -1,0 +1,25 @@
+---
+layout: single
+title: '2017-03-20 hubot, 42, hitchikers guide'
+
+---
+
+# hubot
+Hubot is a fun piece of code, it is a bot framework that is built by github and has adapters for a whole bunch of things. I use it with slack. I have been working on hubot for some time now. [https://hubot.github.com/](https://hubot.github.com/ "https://hubot.github.com/")
+We have a bunch of webhooks that post a whole variety of message to slack.  It turns out that by default hubot ignores all of those messages.  This is because you generally don't want bots getting in to an endless loop of talking to each other. Tracking down a way to have hubot pay attention to others bots was painful but this is how you would do it. This is keying directly off a specific room(opsbot_test) that the hubot is in and from their off of a specific user(firechief) and then a specific message string(dev-).  All of this was important because I didn't want those endless loops. 
+```robot.catchAll (msg) ->
+      console.log msg.message.user.name
+      text=msg.message.rawText
+      room=msg.message.room
+      username=msg.message.user.name
+      
+      if room.match(/opsbot_test/i) && username.match(/firechief/i)
+
+        if text.match(/dev-/i)
+```
+# 42
+42 is the ascii code for * .
+In hitchikers guide to the galaxy 42 was used as the answer because it doesn't matter what the question is because the answer is whatever you want it to be 
+[ascii table](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html "ascii table")
+
+[https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker's_Guide_to_the_Galaxy](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker's_Guide_to_the_Galaxy "https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker's_Guide_to_the_Galaxy")
