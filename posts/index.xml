@@ -43,6 +43,15 @@ Why does this matter? Well we can now get the 2040 as a drop in replacement for 
     </item>
     
     <item>
+      <title>replacing text across files</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-05-26-replacing-text-blocks/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-05-26-replacing-text-blocks/</guid>
+      <description>We built microservices to leverage scale. As a result those microservices are each in their own repos. We don&amp;rsquo;t need to get into a discussion about mono repos here, we aren&amp;rsquo;t using them. The example here is a gitlab pipeline file and we needed to add a new yaml anchor block to use later in the pipeline. We are going to look for something that we know exists, in this case: &amp;ldquo;.</description>
+    </item>
+    
+    <item>
       <title>2018-11-30 virtualbox-shared-clipboard_ripgrep-install</title>
       <link>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</link>
       <pubDate>Fri, 30 Nov 2018 08:08:50 -0400</pubDate>
@@ -1383,18 +1392,6 @@ what’s a REPL? REPL stands for “read eval print loop”. A REPL is a program
       <description>I love bagel and egg sandwiches and they are super easy to make with almost no cleanup.
 Bagel and egg sandwich the easy way(almost NO cleanup):
 as learned from watching a local bagel shop do it for a couple years. heat pan i think its a 12 or 16&amp;quot;, melt butter/oil to coat even nonstick pan while pan is heating take bowl, crack two eggs and whip them together - add whatever spices you want, I usually add nothing once pan is sizzling (if you toss a drop of water in it it sizzles) pour in bowl of eggs toast bagel let cook until it is just about no longer runny, take a decently big spatula fold egg in half, and then fold into quarter, press down, cook one side until it is done enough for you then flip.</description>
-    </item>
-    
-    <item>
-      <title>2022-05-26 replacing text across files</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2022-05-26-replacing-text-blocks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2022-05-26-replacing-text-blocks/</guid>
-      <description>We built microservices to leverage scale.
-As a result those microservices are each in their own repos. We don&amp;rsquo;t need to get into a discussion about mono repos here, we aren&amp;rsquo;t using them.
-The example here is a gitlab pipeline file and we needed to add a new yaml anchor block to use later in the pipeline.
-We are going to look for something that we know exists, in this case: &amp;ldquo;.</description>
     </item>
     
     <item>

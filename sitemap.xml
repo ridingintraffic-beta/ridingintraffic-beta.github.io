@@ -44,6 +44,15 @@
     <loc>https://ridingintraffic-beta.github.io/posts/my-first-post/</loc>
     <lastmod>2022-08-07T14:27:51-05:00</lastmod>
   </url><url>
+    <loc>https://ridingintraffic-beta.github.io/tags/automation/</loc>
+    <lastmod>2022-08-07T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2022-05-26-replacing-text-blocks/</loc>
+    <lastmod>2022-08-07T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/tags/scripting/</loc>
+    <lastmod>2022-08-07T00:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</loc>
     <lastmod>2018-11-30T08:08:50-04:00</lastmod>
   </url><url>
@@ -439,11 +448,7 @@
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2022-05-24-bagel-sandwich-the-easy-way/</loc>
   </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2022-05-26-replacing-text-blocks/</loc>
-  </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-20-ansible/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/tags/automation/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/tags/bagel/</loc>
   </url><url>
@@ -476,8 +481,6 @@
     <loc>https://ridingintraffic-beta.github.io/tags/recipe/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2017-03-08-roasting-log/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/tags/scripting/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-21-tmux/</loc>
   </url><url>
