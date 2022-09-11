@@ -83,20 +83,47 @@
     </item>
     
     <item>
-      <title>confluence</title>
-      <link>https://ridingintraffic-beta.github.io/tags/confluence/</link>
-      <pubDate>Mon, 06 Mar 2017 08:08:50 -0400</pubDate>
+      <title>clojure</title>
+      <link>https://ridingintraffic-beta.github.io/tags/clojure/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 -0500</pubDate>
       
-      <guid>https://ridingintraffic-beta.github.io/tags/confluence/</guid>
+      <guid>https://ridingintraffic-beta.github.io/tags/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>https://ridingintraffic-beta.github.io/tags/aws/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
       <link>https://ridingintraffic-beta.github.io/tags/git/</link>
-      <pubDate>Mon, 06 Mar 2017 08:08:50 -0400</pubDate>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 -0500</pubDate>
       
       <guid>https://ridingintraffic-beta.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bfg</title>
+      <link>https://ridingintraffic-beta.github.io/tags/bfg/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/bfg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>confluence</title>
+      <link>https://ridingintraffic-beta.github.io/tags/confluence/</link>
+      <pubDate>Mon, 06 Mar 2017 08:08:50 -0400</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/tags/confluence/</guid>
       <description></description>
     </item>
     
@@ -169,15 +196,6 @@
       <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
       
       <guid>https://ridingintraffic-beta.github.io/tags/akamai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>aws</title>
-      <link>https://ridingintraffic-beta.github.io/tags/aws/</link>
-      <pubDate>Tue, 28 Feb 2017 08:08:50 -0400</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/tags/aws/</guid>
       <description></description>
     </item>
     

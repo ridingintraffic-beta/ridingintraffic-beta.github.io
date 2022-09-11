@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>bfg on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/tags/bfg/</link>
+    <description>Recent content in bfg on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/bfg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bfg clean local</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-02-28-bfg-local-cleanup/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-02-28-bfg-local-cleanup/</guid>
+      <description>BFG local cleanup This is a thing that you can do to clean up your local git repo AFTER doing a commit and before pushing to origin.
+PREWORK Download BFG.jar https://rtyley.github.io/bfg-repo-cleaner/ https://repo1.maven.org/maven2/com/madgag/bfg/1.13.0/bfg-1.13.0.jar Create directory structure mkdir -p ~/.binaries/ Move BFG into place, chmod it
+mv bfg-1.13.0.jar ~/.binaries/ &amp;amp;&amp;amp; chmod 777 ~/.binaries/bfg-1.13.0.jar setup BASH_PROFILE echo &amp;#39;alias bfg=&amp;#34;java -jar ~/.binaries/bfg-1.13.0.jar&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile echo &amp;#34;export PATH=/Users/$(whoami)/.binaries:$PATH&amp;#34; &amp;gt;&amp;gt; ~/.bash_profile source it source ~/.bash_profile Cleaning repo with BFG Now what do we do.</description>
+    </item>
+    
+  </channel>
+</rss>

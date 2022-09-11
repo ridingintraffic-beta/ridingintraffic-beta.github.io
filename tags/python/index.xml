@@ -21,5 +21,15 @@ https://jvns.ca/blog/2021/09/16/debugging-in-a-repl-is-fun/
 what’s a REPL? REPL stands for “read eval print loop”. A REPL is a program that: reads some input from you like print(f&amp;#34;2 + 2 = {2+2}&amp;#34;) (read) evaluates the input (eval) print out the result (print) and then goes back to step 1 (loop) A couple years ago I used pry in ruby/chef a bunch and then I guess I forgot about it. Now this works for python too and it is WAY better than my print statement hell that I usually write.</description>
     </item>
     
+    <item>
+      <title>pythonic list find</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-06-06-pythonic-list-find/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-06-06-pythonic-list-find/</guid>
+      <description>finding an item in a list python can do a lot of smart things, lets use the python way of finding items in a list.
+#python 3 tags=[ { &amp;#34;Key&amp;#34;: &amp;#34;CreationDate&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;201904011158&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Name&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;mymagicserver&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;aws:autoscaling:groupName&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;my-rad-asg&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Environment&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;cloudy&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;name&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;john&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Department&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;sporting goods&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Auto-Off&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;no&amp;#34; } ] data = list(filter(lambda x: x[&amp;#34;Key&amp;#34;] == &amp;#34;aws:autoscaling:groupName&amp;#34; , tags)) print(data[0][&amp;#34;Value&amp;#34;]) ##brute force way: def bruteforce(mylist) for item in mylist: if item[&amp;#34;Key&amp;#34;] == &amp;#34;aws:autoscaling:groupName&amp;#34;: return item[&amp;#34;Value&amp;#34;] print(bruteforce(tags)) </description>
+    </item>
+    
   </channel>
 </rss>

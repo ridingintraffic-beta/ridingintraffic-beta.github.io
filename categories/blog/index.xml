@@ -9,7 +9,40 @@
       <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 28 Nov 2018 08:08:50 -0400</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Feb 2020 00:00:00 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ec2, meta-data</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-02-19-ec2-things/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-02-19-ec2-things/</guid>
+      <description>Yea it has been a long time since I wrote notes and things but I feel like there are some things to take note on.
+EC2 things of interest reading the userdata of an instance There are plenty of times that I need to see what the userdata looks like of my instance. ssh into the box. curl http://169.254.169.254/latest/user-data simple as that
+curl http://169.254.169.254/latest/user-data #!/bin/bash .... rerunning userdata You should really never rerun userdata but if you are debugging things and need to do things.</description>
+    </item>
+    
+    <item>
+      <title>git codeowners gpox</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-11-12-git-codeowners-gpox/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-11-12-git-codeowners-gpox/</guid>
+      <description>Some git notes I like git I user git a lot, I did not know about CODEOWNERS, this is a nice feature.
+automatic PR approver to a repo Adding codeowners can allow for automatic PR approvers for branches or all things github.com about-code-owners
+You can use a CODEOWNERS file to define individuals or teams that are responsible for code in a repository. To use a CODEOWNERS file, create a new file called CODEOWNERS in the root, docs/, or .</description>
+    </item>
+    
+    <item>
+      <title>ebs grow</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-08-20-ebs-grow/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-08-20-ebs-grow/</guid>
+      <description>need moar ebs AWS EBS volumes. Yes I know that everything in AWS should be immutable and disposable. But sometimes they aren&amp;rsquo;t. We don&amp;rsquo;t need to go into the philosophical rammifcations of that what we need is a fix. First we find the instance, then the volume, then we grow the volume in aws, then we grow the volume on the box
+Lets go and describe the instance
+$ aws ec2 describe-instances --filters Name=tag:Name,Values=&amp;#39;MyMagicServer&amp;#39; | jq &amp;#39;.</description>
+    </item>
+    
     <item>
       <title>2018-11-28 pihole-and-luks-update</title>
       <link>https://ridingintraffic-beta.github.io/posts/2018-11-28-pihole-and-luks-update/</link>
@@ -423,46 +456,13 @@ curl -v -L http://google.com 2&amp;gt;&amp;amp;1 | egrep &amp;#34;^&amp;gt; (Hos
     </item>
     
     <item>
-      <title>2019-06-06 pythonic-list-find</title>
+      <title>pythonic list find</title>
       <link>https://ridingintraffic-beta.github.io/posts/2019-06-06-pythonic-list-find/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ridingintraffic-beta.github.io/posts/2019-06-06-pythonic-list-find/</guid>
       <description>finding an item in a list python can do a lot of smart things, lets use the python way of finding items in a list.
 #python 3 tags=[ { &amp;#34;Key&amp;#34;: &amp;#34;CreationDate&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;201904011158&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Name&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;mymagicserver&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;aws:autoscaling:groupName&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;my-rad-asg&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Environment&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;cloudy&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;name&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;john&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Department&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;sporting goods&amp;#34; }, { &amp;#34;Key&amp;#34;: &amp;#34;Auto-Off&amp;#34;, &amp;#34;Value&amp;#34;: &amp;#34;no&amp;#34; } ] data = list(filter(lambda x: x[&amp;#34;Key&amp;#34;] == &amp;#34;aws:autoscaling:groupName&amp;#34; , tags)) print(data[0][&amp;#34;Value&amp;#34;]) ##brute force way: def bruteforce(mylist) for item in mylist: if item[&amp;#34;Key&amp;#34;] == &amp;#34;aws:autoscaling:groupName&amp;#34;: return item[&amp;#34;Value&amp;#34;] print(bruteforce(tags)) </description>
-    </item>
-    
-    <item>
-      <title>2019-08-20 ebs-grow</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2019-08-20-ebs-grow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2019-08-20-ebs-grow/</guid>
-      <description>need moar ebs AWS EBS volumes. Yes I know that everything in AWS should be immutable and disposable. But sometimes they aren&amp;rsquo;t. We don&amp;rsquo;t need to go into the philosophical rammifcations of that what we need is a fix. First we find the instance, then the volume, then we grow the volume in aws, then we grow the volume on the box
-Lets go and describe the instance
-$ aws ec2 describe-instances --filters Name=tag:Name,Values=&amp;#39;MyMagicServer&amp;#39; | jq &amp;#39;.</description>
-    </item>
-    
-    <item>
-      <title>2019-11-12 git-codeowners-gpox</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2019-11-12-git-codeowners-gpox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2019-11-12-git-codeowners-gpox/</guid>
-      <description>Some git notes I like git I user git a lot, I did not know about CODEOWNERS, this is a nice feature.
-automatic PR approver to a repo Adding codeowners can allow for automatic PR approvers for branches or all things github.com about-code-owners
-You can use a CODEOWNERS file to define individuals or teams that are responsible for code in a repository. To use a CODEOWNERS file, create a new file called CODEOWNERS in the root, docs/, or .</description>
-    </item>
-    
-    <item>
-      <title>2020-02-19 ec2, meta-data</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2020-02-19-ec2-things/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2020-02-19-ec2-things/</guid>
-      <description>Yea it has been a long time since I wrote notes and things but I feel like there are some things to take note on.
-EC2 things of interest reading the userdata of an instance There are plenty of times that I need to see what the userdata looks like of my instance. ssh into the box. curl http://169.254.169.254/latest/user-data simple as that
-curl http://169.254.169.254/latest/user-data #!/bin/bash .... rerunning userdata You should really never rerun userdata but if you are debugging things and need to do things.</description>
     </item>
     
     <item>

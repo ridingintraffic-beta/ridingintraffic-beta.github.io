@@ -9,7 +9,29 @@
       <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Mar 2017 08:08:50 -0400</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>unique .gitconfig</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-04-30-unique-gitconfig/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-04-30-unique-gitconfig/</guid>
+      <description>using multiple .gitconfig There is a neat feature in .gitconfig that will allow you to use uniueq gitconfig depending on the folder structure that you have.
+For example add this to your global gitconfig: This is assuming that ~/github has one org of repos, and ~/git has another, much lke personal and corporate git repos
+[includeIf &amp;#34;gitdir:~/git/&amp;#34;] path = ~/git/.gitconfig [includeIf &amp;#34;gitdir:~/github/&amp;#34;] path = ~/github/.gitconfig Then if you add this is the correpsonding location, the user name/email will be different in each folder structure.</description>
+    </item>
+    
+    <item>
+      <title>git codeowners gpox</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-11-12-git-codeowners-gpox/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-11-12-git-codeowners-gpox/</guid>
+      <description>Some git notes I like git I user git a lot, I did not know about CODEOWNERS, this is a nice feature.
+automatic PR approver to a repo Adding codeowners can allow for automatic PR approvers for branches or all things github.com about-code-owners
+You can use a CODEOWNERS file to define individuals or teams that are responsible for code in a repository. To use a CODEOWNERS file, create a new file called CODEOWNERS in the root, docs/, or .</description>
+    </item>
+    
     <item>
       <title>2017-03-06 git, splunk, lastpass-cli</title>
       <link>https://ridingintraffic-beta.github.io/posts/2017-03-06-something-witty/</link>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>clojure on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/tags/clojure/</link>
+    <description>Recent content in clojure on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 24 Sep 2020 00:00:00 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clojure 2</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-06-24-clojure-2/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-06-24-clojure-2/</guid>
+      <description>Clojure again Welcome back to my clojure ramblings while I try to understand more.
+Tonight we are going to pick up where we left off, and that has to do with Vectors.
+NOTE: I am writing this as a way to digest and understand the book that I am working through entitled. Living Clojure
+Vectors Vectors can be found because they are wrapped in []
+user=&amp;gt; [ :bucket 3 4 :cup ] [:bucket 3 4 :cup] user=&amp;gt; [:thing &amp;#34;other&amp;#34; :mine] [:thing &amp;#34;other&amp;#34; :mine] Vectors are similar to lists we can have a mix of types in them, and some of the same operators can be used on them.</description>
+    </item>
+    
+    <item>
+      <title>Clojure 3</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-06-27-clojure-3/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-06-27-clojure-3/</guid>
+      <description>More Clojure Welcome back again. Last time we ended with assoc and dissoc. Tonight we will start with Sets.
+NOTE: I am writing this as a way to digest and understand the book that I am working through entitled. Living Clojure
+Sets What is a set? Sets are collections without duplicates and can be denoted with #{} Because of the nature of the set, we get a few extra methods to use on them, union difference and intersection.</description>
+    </item>
+    
+    <item>
+      <title>Clojure 1</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-06-23-clojure-1/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-06-23-clojure-1/</guid>
+      <description>Clojure I am trying to learn clojure, therefore the best way that I know how to learn something is to write about it. This allows me to digest the things that I am learning. Apparently I had forgotten about this tactic for the past couple weeks, as I was trying to just read and do problems to help learn this. Therefore lets get started.
+NOTE: I am writing this as a way to digest and understand the book that I am working through entitled.</description>
+    </item>
+    
+  </channel>
+</rss>
