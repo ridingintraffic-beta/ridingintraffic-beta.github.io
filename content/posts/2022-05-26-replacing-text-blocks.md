@@ -1,6 +1,6 @@
 ---
-title: "replacing text across files"
 date: 2022-08-07T00:00:00-05:00
+title: "replacing text across files"
 draft: false
 categories: [ daily ]
 tags : [ devops, automation, scripting ]
