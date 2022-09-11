@@ -1,9 +1,9 @@
 ---
-layout: single
-title: 2018-11-30 virtualbox-shared-clipboard_ripgrep-install
-modified:
-categories: blog
-date: 2018-11-30T08:08:50-04:00
+date: 2018-11-38T00:00:00-05:00
+draft: false
+title: virtualbox-shared-clipboard_ripgrep-install
+categories: [ daily ]
+tags: [ ]
 ---
 
 # Virtualbox shared clipboard
