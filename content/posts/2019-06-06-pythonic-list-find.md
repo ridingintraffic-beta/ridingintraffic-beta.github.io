@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2019-06-06 pythonic-list-find
-modified:
-categories: blog
+title: 'pythonic list find'
+draft: false
+categories: [ blog ]
+tags: [ python ]
 date: 2019-06-06-T08:08:50-04:00
 ---
 

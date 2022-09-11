@@ -1,9 +1,9 @@
 ---
-layout: single
-title: 2019-11-12 git-codeowners-gpox
-modified:
-categories: blog
-date: 2019-11-12-T08:08:50-04:00
+date: 2019-11-12T00:00:00-05:00
+title: 'git codeowners gpox' 
+draft: false
+categories: [ blog ]
+tags: [ git ]
 ---
 
 # Some git notes

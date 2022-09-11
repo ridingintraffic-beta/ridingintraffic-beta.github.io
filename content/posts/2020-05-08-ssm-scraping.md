@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-05-08 playing with ssm'
-modified:
-categories: daily
-excerpt:
-tags : [  ]
-image:
-  feature:
+date: 2020-05-08T00:00:00-05:00
+title: 'playing with ssm'
+draft: false
+categories: [ daily ]
+tags : [ aws ]
 ---
 # ssm rate limiting
 I was spending a little bit of time trying to scrape some ssm stuff and i figured out that there seems to be a "feature" built in to ssm that doesn't let you do too many describes.

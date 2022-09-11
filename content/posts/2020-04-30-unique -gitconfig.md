@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-04-30 unique .gitconfig'
-modified:
-categories: daily
-excerpt:
-tags : [  ]
-image:
-  feature:
+date: 2020-04-30T00:00:00-05:00
+title: 'unique .gitconfig'
+draft: false
+categories: [ daily ]
+tags : [ git ]
 ---
 # using multiple .gitconfig
 There is a neat feature in .gitconfig that will allow you to use uniueq gitconfig depending on the folder structure that you have.   

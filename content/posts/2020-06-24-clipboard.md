@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-06-24 Clipboard'
-modified:
-categories: daily
-excerpt:
+date: 2020-06-24T00:00:00-05:00
+title: 'Clipboard'
+draft: false
+categories: [ daily ]
 tags : [  ]
-image:
-  feature:
 ---
 # Iterm Clipboard
 Apparently there has been an option sitting in iTerm that will allow applications in the terminal to access the system clipboard and somehow I never knew about this?!?

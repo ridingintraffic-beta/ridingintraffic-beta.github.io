@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-03-04 aws encrypted keys'
-modified:
+date: 2020-03-04T00:00:00-05:00
+title: 'aws encrypted keys'
+draft: false
 categories: daily
-excerpt:
-tags : [  ]
-image:
-  feature:
+tags : [ aws ]
 ---
 # AWS credential_process
 There is a setting in the aws config that allows AWS to source the credentials externally.   This can be super handy if you don't want to store those as plain text things.  

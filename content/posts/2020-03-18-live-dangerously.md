@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-03-18 live dangerously'
-modified:
+date: 2020-03-18T00:00:00-05:00
+title: 'live dangerously'
+draft: false
 categories: daily
-excerpt:
 tags : [  ]
-image:
-  feature:
 ---
 # Turn off signed aps in mac  
 I don't want the security warning for unsigned apps.   You can do this with this command on a mac.  

@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-02-28 bfg clean local'
-modified:
-categories: daily
-excerpt:
-tags : [  ]
-image:
-  feature:
+date: 2020-03-28T00:00:00-05:00
+title: 'bfg clean local'
+draft: false
+categories: [ daily ]
+tags : [ bfg ]
 ---
 # BFG local cleanup
 This is a thing that you can do to clean up your local git repo AFTER doing a commit and before pushing to origin.
