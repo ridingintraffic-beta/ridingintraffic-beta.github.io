@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-11-11 terraform destroy gpg pinentry'
-modified:
-categories: daily
-excerpt:
-tags : [  ]
-image:
-  feature:
+date: 2020-11-11T00:00:00-05:00
+title: 'terraform destroy gpg pinentry'
+draft: false
+categories: [ daily ] 
+tags : [ tools ]
 ---
 # pinentry is broken on my mac?!
 try this first

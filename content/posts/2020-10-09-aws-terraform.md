@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-10-09 aws cli input and TF state file'
-modified:
-categories: daily
-excerpt:
+date: 2020-10-09T00:00:00-05:00
+title: 'aws cli input and TF state file'
+draft: false
+categories: [ daily ]
 tags : [  ]
-image:
-  feature:
 ---
 # AWS cli v2 input prompting
 Today I learned that there is an argument that you can pass to the aws cli and it will prompt you for the input for the command that you are trying to run. 

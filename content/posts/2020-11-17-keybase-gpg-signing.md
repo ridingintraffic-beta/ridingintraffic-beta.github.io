@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-11-12 keybase gpg signing'
-modified:
-categories: daily
-excerpt:
-tags : [  ]
-image:
-  feature:
+date: 2020-11-17T00:00:00-05:00
+title: 'keybase gpg signing'
+draft: false
+categories: [ daily ]
+tags : [ tools ]
 ---
 # I am borrowing this from pstadler because it is really good
 [https://github.com/pstadler/keybase-gpg-github/blob/master/README.md](https://github.com/pstadler/keybase-gpg-github/blob/master/README.md)

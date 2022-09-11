@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2022-05-24 bagel sandwich the easy way'
-modified:
-categories: daily
-excerpt:
-tags : [ food, recipe, bagel, eggs ]
-image:
-  feature:
+date: 2022-05-024T00:00:00-05:00
+draft: false
+title: 'bagel sandwich the easy way'
+categories: [ daily ] 
+tags : [ food ]
 ---
 I love bagel and egg sandwiches and they are super easy to  make with almost no cleanup.  
 Bagel and egg sandwich the easy way(almost NO cleanup):  

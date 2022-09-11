@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-11-12 bfg -delete'
-modified:
-categories: daily
-excerpt:
-tags : [  ]
-image:
-  feature:
+date: 2020-11-12T00:00:00-05:00
+title: 'bfg -delete'
+draft: false
+categories: [ daily ]
+tags : [ tools ]
 ---
 # Help! I committed and pushed something dangerous to github 
 This happens we are not perfect and from time to time mistakes are made.  Thats ok  we can fix it with bfg
