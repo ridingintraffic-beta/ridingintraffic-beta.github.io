@@ -453,25 +453,11 @@
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2018-03-14-solve_problem_not_working/</loc>
   </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2018-12-02-dot-file-automation/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2018-12-05-sudo-make-me-a-sandwich/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2018-12-11-netcat-portscanner/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2019-01-02-git-secrets/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2019-02-12-certs/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2019-04-09-github-one-liner/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2019-04-22-sql-server-terminal/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2019-05-01-curl-redirects/</loc>
-  </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-20-ansible/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2022-05-24-bagel-sandwich-the-easy-way/</loc>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2019-02-12-certs/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-19-chef/</loc>
   </url><url>
@@ -479,17 +465,25 @@
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-27-cli/</loc>
   </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2019-05-01-curl-redirects/</loc>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2018-12-02-dot-file-automation/</loc>
+  </url><url>
     <loc>https://ridingintraffic-beta.github.io/tags/food/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/tags/fstab/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-19-git/</loc>
   </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2019-04-09-github-one-liner/</loc>
+  </url><url>
     <loc>https://ridingintraffic-beta.github.io/tags/hugo/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-19-wiki-index/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/tags/intro/</loc>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2019-01-02-git-secrets/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/tags/keyboards/</loc>
   </url><url>
@@ -505,7 +499,13 @@
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2017-03-08-roasting-log/</loc>
   </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2019-04-22-sql-server-terminal/</loc>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2018-12-05-sudo-make-me-a-sandwich/</loc>
+  </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-21-tmux/</loc>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2018-12-11-netcat-portscanner/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</loc>
   </url><url>

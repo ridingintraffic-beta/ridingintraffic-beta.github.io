@@ -44,37 +44,6 @@ $ aws ec2 describe-instances --filters Name=tag:Name,Values=&amp;#39;MyMagicServ
     </item>
     
     <item>
-      <title>2018-11-28 pihole-and-luks-update</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2018-11-28-pihole-and-luks-update/</link>
-      <pubDate>Wed, 28 Nov 2018 08:08:50 -0400</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-28-pihole-and-luks-update/</guid>
-      <description>pi-hole Well i had tried to use pi-hole before and it failed horribly. Tonight on the other hand, I just wiped a pi and installed an sdcard, ran a simple script and all the magic was done for me&amp;hellip; So I guess I might have to use this after all&amp;hellip;. I am also going to do some research on automating the maintaince of it to make sure the block lists are also up to date and whatnot.</description>
-    </item>
-    
-    <item>
-      <title>2018-11-26 fun-with-rsync</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2018-11-26-fun-with-rsync/</link>
-      <pubDate>Mon, 26 Nov 2018 08:08:50 -0400</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-26-fun-with-rsync/</guid>
-      <description>fun with rsync Sometimes you jsut gotta back up files as clones, to another location. On a mac you have access to rsync and it is avaialbe in homebrew. brew install rsync wait for completion and then you are good to go. Alright so how about some commands..
-copy from local to usb rsync -av /Users/$(whoami)/Documents/ /Volumes/1tb/backup/
-copy from nas to usb rsync -av /Volumes/files/data/ /Volumes/1tb/backup/
-mac will mount nas shares in the share name and then in volumes, so this is reliant on that mount being present when you want to pull something down from said nas.</description>
-    </item>
-    
-    <item>
-      <title>2018-11-21 book-list_chaos-engineering_docker-python</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2018-11-21-book-list_chaos-engineering_docker-python/</link>
-      <pubDate>Wed, 21 Nov 2018 08:08:50 -0400</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-21-book-list_chaos-engineering_docker-python/</guid>
-      <description>books Everyone like to read things right? well I came across this list from palo alto earlier and it looks pretty promising. cybercanon.paloaltonetworks There area whole bunch of books in there raning from security to chaos engineering. Down the chaos engineering rabbit hole we go checkout this list of chaos engineering everything here awesome-chaos-engineering
-what is chaos engineering? It is using the ideas that the systems that we create now are so complex and dense.</description>
-    </item>
-    
-    <item>
       <title>2018-11-15 hashcat-nvidia-fans</title>
       <link>https://ridingintraffic-beta.github.io/posts/2018-11-15-nvidia-fancontrol/</link>
       <pubDate>Thu, 15 Nov 2018 08:08:50 -0400</pubDate>
@@ -378,81 +347,13 @@ mastering markdown n Now if only i could keep all of this in my head mastering-m
     </item>
     
     <item>
-      <title>2018-12-02 dot-file-automation</title>
+      <title>dot file automation</title>
       <link>https://ridingintraffic-beta.github.io/posts/2018-12-02-dot-file-automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ridingintraffic-beta.github.io/posts/2018-12-02-dot-file-automation/</guid>
       <description>dot file automation Sharpen and clean your tools to make them last longer. Hone your tools to make them more precise. The tools of a SRE start with the terminal. The terminal is honed sharp with dotfiles.
 Live your life long enough in a terminal and tweaks and customizations happen. Live longer and when those tweaks are lost from a catastrophe or when you switch machines, you will be hamstrung and saddened going back to nothing.</description>
-    </item>
-    
-    <item>
-      <title>2018-12-05 sudo-make-me-a-sandwich</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2018-12-05-sudo-make-me-a-sandwich/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2018-12-05-sudo-make-me-a-sandwich/</guid>
-      <description>sudo make me a sandwich, then I&amp;rsquo;ll pwn your fridge Sudo is a program for Unix-like computer operating systems that allows users to run programs with the security privileges of another user. wikipedia-sudo
-Let’s say that we have a folder named /luggage/. The luggage is carrying some incredibly valuable things. Rincewind and twoflower are two users who have been traveling with this luggage for sometime. Because, rincewind doesn&amp;rsquo;t want twoflower to read the octavo, but is fine if he looks at the camera, both which are located in the in the luggage.</description>
-    </item>
-    
-    <item>
-      <title>2018-12-11 netcat-portscanner</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2018-12-11-netcat-portscanner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2018-12-11-netcat-portscanner/</guid>
-      <description>netcat netcat can work like a portscanner. If it is the only tool that you have you make do. this is going to scan localhost across all of the ports
-nc -zv 127.0.0.1 1-65535 </description>
-    </item>
-    
-    <item>
-      <title>2019-01-02 git-secrets</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2019-01-02-git-secrets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2019-01-02-git-secrets/</guid>
-      <description>git-secrets I came across this handy piece of software today, called git-secrets. It is made by awslabs and it acts as a git-hook that will stop you form doing stupid things. https://github.com/awslabs/git-secrets</description>
-    </item>
-    
-    <item>
-      <title>2019-02-12 certs</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2019-02-12-certs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2019-02-12-certs/</guid>
-      <description>self signed certs Genning certs is always a pita, luckily I found a quick and easy way from the folks over at spiderlabs, to do it.. gen-self-signed-cert.sh
-#!/bin/bash openssl genrsa -out my.key 2048 openssl req -new -x509 -days 3650 -key my.key -out my.crt -subj &amp;#34;/&amp;#34; </description>
-    </item>
-    
-    <item>
-      <title>2019-04-09 github-one-liner-and-powershell-curl</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2019-04-09-github-one-liner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2019-04-09-github-one-liner/</guid>
-      <description>Github releases There is a nice way to get the latest release from a github repo. as long as it gets tagged as release. I like to be able to pull down the latest version of a release for specific code in automated builds. This helps that.
-Use curl to get the JSON response for the latest release Use grep to find the line containing file URL Use cut and tr to extract the URL Use wget to download it</description>
-    </item>
-    
-    <item>
-      <title>2019-04-22 sql-server-terminal</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2019-04-22-sql-server-terminal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2019-04-22-sql-server-terminal/</guid>
-      <description>sql server I needed to connect to a sql db this morning and I didn&amp;rsquo;t have a client. Docker to the rescue! docker run -it mysql /bin/bash mysql -u &amp;lt;myuser&amp;gt; -p -h &amp;lt;myhost&amp;gt; &amp;lt;mydatabase&amp;gt; and done. when using the -p flag it will prompt you for the password instead of having it in the terminal. Simple easy and connected.</description>
-    </item>
-    
-    <item>
-      <title>2019-05-01 curl-redirects</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2019-05-01-curl-redirects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2019-05-01-curl-redirects/</guid>
-      <description>curl redirects Sometimes you want to be able to follow a redirect chain to see what is going on. you can do that pretty easily with curl. Toss in your url and hit enter then follow the breadcrumbs.
-curl -v -L http://google.com 2&amp;gt;&amp;amp;1 | egrep &amp;#34;^&amp;gt; (Host:|GET)&amp;#34; $ curl -v -L http://google.com 2&amp;gt;&amp;amp;1 | egrep &amp;#34;^&amp;gt; (Host:|GET)&amp;#34; &amp;gt; GET http://google.com/ HTTP/1.1 &amp;gt; Host: google.com &amp;gt; GET http://www.google.com/ HTTP/1.1 &amp;gt; Host: www.</description>
     </item>
     
     <item>

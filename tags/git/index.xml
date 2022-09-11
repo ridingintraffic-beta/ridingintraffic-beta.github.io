@@ -62,5 +62,24 @@ $ git config user.name &amp;#34;John Doe&amp;#34; $ git config user.email &amp;#
       <description>Productive Saturday rant Been cranking away at my laptop from 630-830 this morning, and realizing that my ancient mac book air battery which was already replace once, is just a poor shadow of what it should be. I&amp;rsquo;m only going to get about 3 hours out of this battery before it dies. Which is sad because i really wanted to get a new laptop this year but mac did not really give us any options.</description>
     </item>
     
+    <item>
+      <title>github one liner and powershell curl</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-04-09-github-one-liner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-04-09-github-one-liner/</guid>
+      <description>Github releases There is a nice way to get the latest release from a github repo. as long as it gets tagged as release. I like to be able to pull down the latest version of a release for specific code in automated builds. This helps that.
+Use curl to get the JSON response for the latest release Use grep to find the line containing file URL Use cut and tr to extract the URL Use wget to download it</description>
+    </item>
+    
+    <item>
+      <title>keeping secrets out of git</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2019-01-02-git-secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2019-01-02-git-secrets/</guid>
+      <description>git-secrets I came across this handy piece of software today, called git-secrets. It is made by awslabs and it acts as a git-hook that will stop you form doing stupid things. https://github.com/awslabs/git-secrets</description>
+    </item>
+    
   </channel>
 </rss>

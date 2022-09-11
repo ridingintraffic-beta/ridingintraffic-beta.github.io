@@ -31,7 +31,7 @@ rg &amp;#39;.wait:&amp;#39; -g &amp;#39;.gitlab-ci.yml&amp;#39; --context 5 The 
     </item>
     
     <item>
-      <title>code to path</title>
+      <title>adding &lt;vs&gt;code to path</title>
       <link>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 -0500</pubDate>
       
@@ -80,6 +80,16 @@ git add my-bad-file git commit -a -m &amp;#34;im dumb&amp;#34; git push origin m
       <description>pinentry is broken on my mac?! try this first
 # Kill gpg-agent killall gpg-agent # Run gpg-agent in daemon mode gpg-agent --daemon Universal handoff - clipboard mac/IOS There is a feature in mac land that allows you to share clipboard between phone and computer if they are both on the same wifi along with the same apple account. This can be super useful for a variety of applications.
 Here&amp;#39;s how to turn on Handoff on your devices: On your Mac: Choose Apple () menu &amp;gt; System Preferences, then click General.</description>
+    </item>
+    
+    <item>
+      <title>dot file automation</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-12-02-dot-file-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-12-02-dot-file-automation/</guid>
+      <description>dot file automation Sharpen and clean your tools to make them last longer. Hone your tools to make them more precise. The tools of a SRE start with the terminal. The terminal is honed sharp with dotfiles.
+Live your life long enough in a terminal and tweaks and customizations happen. Live longer and when those tweaks are lost from a catastrophe or when you switch machines, you will be hamstrung and saddened going back to nothing.</description>
     </item>
     
   </channel>
