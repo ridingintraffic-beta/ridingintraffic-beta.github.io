@@ -322,5 +322,15 @@ as learned from watching a local bagel shop do it for a couple years. heat pan i
 This lets you create all sorts of animations https://githubmemory.com/repo/AskMeAboutBirds/qmk-oled-animation-compressor</description>
     </item>
     
+    <item>
+      <title>virtualbox-shared-clipboard_ripgrep-install</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</guid>
+      <description>Virtualbox shared clipboard When using virtualbox it is pretty important that you are going to want to have a shared clipboard between your machine and the vm. This can be done for linux/kali linux by doing the following.
+Start VirtualBox. Start the host in question. Once the host has booted, click Devices | Insert Guest Additions CD Image. Open up a terminal window in the guest. Mount the CD-ROM with the command sudo mount /dev/cdrom /mnt.</description>
+    </item>
+    
   </channel>
 </rss>

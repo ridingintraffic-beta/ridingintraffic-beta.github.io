@@ -203,16 +203,6 @@ Sets What is a set? Sets are collections without duplicates and can be denoted w
     </item>
     
     <item>
-      <title>2018-11-30 virtualbox-shared-clipboard_ripgrep-install</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</link>
-      <pubDate>Fri, 30 Nov 2018 08:08:50 -0400</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</guid>
-      <description>Virtualbox shared clipboard When using virtualbox it is pretty important that you are going to want to have a shared clipboard between your machine and the vm. This can be done for linux/kali linux by doing the following.
-Start VirtualBox. Start the host in question. Once the host has booted, click Devices | Insert Guest Additions CD Image. Open up a terminal window in the guest. Mount the CD-ROM with the command sudo mount /dev/cdrom /mnt.</description>
-    </item>
-    
-    <item>
       <title>2018-11-28 pihole-and-luks-update</title>
       <link>https://ridingintraffic-beta.github.io/posts/2018-11-28-pihole-and-luks-update/</link>
       <pubDate>Wed, 28 Nov 2018 08:08:50 -0400</pubDate>
@@ -1489,6 +1479,16 @@ Selection and copying once in acroll mode spacebar character slect mode
 once in scroll mode shift+V line select mode
 once selected y copies to clipboard
 paste like normal</description>
+    </item>
+    
+    <item>
+      <title>virtualbox-shared-clipboard_ripgrep-install</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</guid>
+      <description>Virtualbox shared clipboard When using virtualbox it is pretty important that you are going to want to have a shared clipboard between your machine and the vm. This can be done for linux/kali linux by doing the following.
+Start VirtualBox. Start the host in question. Once the host has booted, click Devices | Insert Guest Additions CD Image. Open up a terminal window in the guest. Mount the CD-ROM with the command sudo mount /dev/cdrom /mnt.</description>
     </item>
     
   </channel>

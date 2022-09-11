@@ -9,17 +9,7 @@
       <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Nov 2018 08:08:50 -0400</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2018-11-30 virtualbox-shared-clipboard_ripgrep-install</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</link>
-      <pubDate>Fri, 30 Nov 2018 08:08:50 -0400</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</guid>
-      <description>Virtualbox shared clipboard When using virtualbox it is pretty important that you are going to want to have a shared clipboard between your machine and the vm. This can be done for linux/kali linux by doing the following.
-Start VirtualBox. Start the host in question. Once the host has booted, click Devices | Insert Guest Additions CD Image. Open up a terminal window in the guest. Mount the CD-ROM with the command sudo mount /dev/cdrom /mnt.</description>
-    </item>
-    
+    <lastBuildDate>Wed, 28 Nov 2018 08:08:50 -0400</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2018-11-28 pihole-and-luks-update</title>
       <link>https://ridingintraffic-beta.github.io/posts/2018-11-28-pihole-and-luks-update/</link>
