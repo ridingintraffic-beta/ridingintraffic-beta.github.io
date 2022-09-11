@@ -1,12 +1,9 @@
 ---
-layout: single
-title: '2020-07-08 Terraform external'
-modified:
-categories: daily
-excerpt:
+date: 2020-07-08T00:00:00-05:00
+title: 'Terraform external'
+draft: false
+categories: [ daily ]
 tags : [  ]
-image:
-  feature:
 ---
 # Fun with terraform
 
