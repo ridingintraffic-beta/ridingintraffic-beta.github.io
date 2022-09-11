@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2018-12-11 netcat-portscanner
-modified:
-categories: blog
+draft: false
+title: 'using netcat as a portscanner'
+categories: [ daily ]
+tags: [ ]
 date: 2018-12-11-T08:08:50-04:00
 ---
 

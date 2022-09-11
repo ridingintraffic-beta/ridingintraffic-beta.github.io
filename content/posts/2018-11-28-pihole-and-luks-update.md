@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2018-11-28 pihole-and-luks-update
-modified:
-categories: blog
+draft: false
+title: 'pihole and luks update'
+categories: [ daily ]
+tags: [ ]
 date: 2018-11-28T08:08:50-04:00
 ---
 

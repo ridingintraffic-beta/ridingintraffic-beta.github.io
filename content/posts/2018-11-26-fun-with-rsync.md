@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2018-11-26 fun-with-rsync
-modified:
-categories: blog
+draft: false
+title: 'fun with rsync'
+categories: [ daily ]
+tags: [ ]
 date: 2018-11-26T08:08:50-04:00
 ---
 

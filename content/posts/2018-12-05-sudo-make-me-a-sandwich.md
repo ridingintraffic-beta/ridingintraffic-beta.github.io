@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2018-12-05 sudo-make-me-a-sandwich
-modified:
-categories: blog
+title: 'sudo make me a sandwich'
+draft: false
+categories: [ daily ]
+tags: [ ]
 date: 2018-12-05-T08:08:50-04:00
 ---
 # sudo make me a sandwich, then I'll pwn your fridge

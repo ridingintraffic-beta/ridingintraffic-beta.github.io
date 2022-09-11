@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2019-04-09 github-one-liner-and-powershell-curl
-modified:
-categories: blog
+draft: false
+title: 'github one liner and powershell curl'
+categories: [ daily ]
+tags: [ git ]
 date: 2019-04-09-T08:08:50-04:00
 ---
 

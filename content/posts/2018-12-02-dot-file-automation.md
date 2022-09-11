@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2018-12-02 dot-file-automation
-modified:
-categories: blog
+draft: false
+title: 'dot file automation'
+categories: [ blog ]
+tags: [ tools ]
 date: 2018-12-02-T08:08:50-04:00
 ---
 # dot file automation

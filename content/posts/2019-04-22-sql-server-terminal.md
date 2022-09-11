@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2019-04-22 sql-server-terminal
-modified:
-categories: blog
+draft: false
+title: 'sql server terminal'
+tags: [ ]
+categories: [ daily ]
 date: 2019-04-22-T08:08:50-04:00
 ---
 

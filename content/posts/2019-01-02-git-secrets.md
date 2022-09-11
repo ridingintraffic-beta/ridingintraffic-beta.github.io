@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2019-01-02 git-secrets
-modified:
-categories: blog
+title: 'keeping secrets out of git' 
+draft: false
+categories: [ daily ]
+tags: [ git ]
 date: 2019-01-02-T08:08:50-04:00
 ---
 

@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2018-11-21 book-list_chaos-engineering_docker-python
-modified:
-categories: blog
+title: 'book list, chaos engineering and docker with python'
+draft: false
+categories: [ daily ]
+tags: [ ]
 date: 2018-11-21T08:08:50-04:00
 ---
 

@@ -1,8 +1,8 @@
 ---
-layout: single
-title: 2019-05-01 curl-redirects
-modified:
-categories: blog
+title: 'curl redirects'
+draft: false
+categories: [ daily ]
+tags: [ ]
 date: 2019-05-01-T08:08:50-04:00
 ---
 
