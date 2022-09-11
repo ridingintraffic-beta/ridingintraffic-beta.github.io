@@ -1,6 +1,6 @@
 baseURL: "https://ridingintraffic-beta.github.io/"
 title: what did I learn today
-paginate: 7
+paginate: 20
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -134,7 +134,7 @@ markup:
   highlight:
     noClasses: false
     # anchorLineNos: true
-    # codeFences: true
+    codeFences: true
     # guessSyntax: true
-    # lineNos: true
+    lineNos: true
     # style: monokai
