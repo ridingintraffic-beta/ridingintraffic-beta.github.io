@@ -21,5 +21,66 @@ I want to find a string in a specific filename that exists in many folders. Then
 rg &amp;#39;.wait:&amp;#39; -g &amp;#39;.gitlab-ci.yml&amp;#39; --context 5 The string that I am searching for is .</description>
     </item>
     
+    <item>
+      <title>github vscode</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</guid>
+      <description>Github and gitlab both have online text editors. if you are in safari and you have a repo open for either of them. All you need to do is type the period key and they will pop full fledged web editors for you. with github you are actually getting vscode with gitlab you are getting their editor. this makes me miss github for my daily work environment. but i guess there is a gitlab plugin for vscode in the web.</description>
+    </item>
+    
+    <item>
+      <title>code to path</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</guid>
+      <description>Adding code . to your terminal in order to open vscode. I like to maintain a terminal session running with just about everything that I am working on in it. Usually I work in VIM but lately I have needed to use vscode for a number of things. I like being ale to clone or switch the repo I am working on from the terminal and then open an editor directly from there.</description>
+    </item>
+    
+    <item>
+      <title>vim-jq</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</guid>
+      <description>Format json in vim If you have jq installed then all you need to do, to pretty print json is.
+:%!jq &amp;#39;.&amp;#39; Bam pretty json in vim</description>
+    </item>
+    
+    <item>
+      <title>keybase gpg signing</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</guid>
+      <description>I am borrowing this from pstadler because it is really good https://github.com/pstadler/keybase-gpg-github/blob/master/README.md
+Set up Keybase.io, GPG &amp;amp; Git to sign commits on GitHub This is a step-by-step guide on how to create a GPG key on keybase.io, adding it to a local GPG setup and use it with Git and GitHub.
+Although this guide was written for macOS, most commands should work in other operating systems as well.
+There&amp;rsquo;s a video published by Timothy Miller explaining some parts of this guide.</description>
+    </item>
+    
+    <item>
+      <title>bfg -delete</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</guid>
+      <description>Help! I committed and pushed something dangerous to github This happens we are not perfect and from time to time mistakes are made. Thats ok we can fix it with bfg
+git add my-bad-file git commit -a -m &amp;#34;im dumb&amp;#34; git push origin master # I did not mean to do that, I did not mean to do that # Lets fix it # i am in the repo folder named my-repo rm my-bad-file git commit -a -m &amp;#34;go away&amp;#34; git push origin master cd .</description>
+    </item>
+    
+    <item>
+      <title>terraform destroy gpg pinentry</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</guid>
+      <description>pinentry is broken on my mac?! try this first
+# Kill gpg-agent killall gpg-agent # Run gpg-agent in daemon mode gpg-agent --daemon Universal handoff - clipboard mac/IOS There is a feature in mac land that allows you to share clipboard between phone and computer if they are both on the same wifi along with the same apple account. This can be super useful for a variety of applications.
+Here&amp;#39;s how to turn on Handoff on your devices: On your Mac: Choose Apple () menu &amp;gt; System Preferences, then click General.</description>
+    </item>
+    
   </channel>
 </rss>

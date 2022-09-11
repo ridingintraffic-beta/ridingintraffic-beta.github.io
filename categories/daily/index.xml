@@ -31,6 +31,124 @@ rg &amp;#39;.wait:&amp;#39; -g &amp;#39;.gitlab-ci.yml&amp;#39; --context 5 The 
     </item>
     
     <item>
+      <title>github vscode</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</guid>
+      <description>Github and gitlab both have online text editors. if you are in safari and you have a repo open for either of them. All you need to do is type the period key and they will pop full fledged web editors for you. with github you are actually getting vscode with gitlab you are getting their editor. this makes me miss github for my daily work environment. but i guess there is a gitlab plugin for vscode in the web.</description>
+    </item>
+    
+    <item>
+      <title>code to path</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</guid>
+      <description>Adding code . to your terminal in order to open vscode. I like to maintain a terminal session running with just about everything that I am working on in it. Usually I work in VIM but lately I have needed to use vscode for a number of things. I like being ale to clone or switch the repo I am working on from the terminal and then open an editor directly from there.</description>
+    </item>
+    
+    <item>
+      <title>python repl</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</guid>
+      <description>Using repl to debug python.
+https://jvns.ca/blog/2021/09/16/debugging-in-a-repl-is-fun/
+what’s a REPL? REPL stands for “read eval print loop”. A REPL is a program that: reads some input from you like print(f&amp;#34;2 + 2 = {2+2}&amp;#34;) (read) evaluates the input (eval) print out the result (print) and then goes back to step 1 (loop) A couple years ago I used pry in ruby/chef a bunch and then I guess I forgot about it. Now this works for python too and it is WAY better than my print statement hell that I usually write.</description>
+    </item>
+    
+    <item>
+      <title>git-diff</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-05-26-git-diff/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-05-26-git-diff/</guid>
+      <description>Diffing with git Diffing with git is hard so I wrote an alias in order to make my life easier.
+alias git-diff-master=&amp;#39;git diff master...`git rev-parse --abbrev-ref HEAD`&amp;#39; Run that little alias and you are good to go when you need to check what you have changed.
+bye</description>
+    </item>
+    
+    <item>
+      <title>vim-jq</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</guid>
+      <description>Format json in vim If you have jq installed then all you need to do, to pretty print json is.
+:%!jq &amp;#39;.&amp;#39; Bam pretty json in vim</description>
+    </item>
+    
+    <item>
+      <title>keybase gpg signing</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</guid>
+      <description>I am borrowing this from pstadler because it is really good https://github.com/pstadler/keybase-gpg-github/blob/master/README.md
+Set up Keybase.io, GPG &amp;amp; Git to sign commits on GitHub This is a step-by-step guide on how to create a GPG key on keybase.io, adding it to a local GPG setup and use it with Git and GitHub.
+Although this guide was written for macOS, most commands should work in other operating systems as well.
+There&amp;rsquo;s a video published by Timothy Miller explaining some parts of this guide.</description>
+    </item>
+    
+    <item>
+      <title>bfg -delete</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</guid>
+      <description>Help! I committed and pushed something dangerous to github This happens we are not perfect and from time to time mistakes are made. Thats ok we can fix it with bfg
+git add my-bad-file git commit -a -m &amp;#34;im dumb&amp;#34; git push origin master # I did not mean to do that, I did not mean to do that # Lets fix it # i am in the repo folder named my-repo rm my-bad-file git commit -a -m &amp;#34;go away&amp;#34; git push origin master cd .</description>
+    </item>
+    
+    <item>
+      <title>terraform destroy gpg pinentry</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</guid>
+      <description>pinentry is broken on my mac?! try this first
+# Kill gpg-agent killall gpg-agent # Run gpg-agent in daemon mode gpg-agent --daemon Universal handoff - clipboard mac/IOS There is a feature in mac land that allows you to share clipboard between phone and computer if they are both on the same wifi along with the same apple account. This can be super useful for a variety of applications.
+Here&amp;#39;s how to turn on Handoff on your devices: On your Mac: Choose Apple () menu &amp;gt; System Preferences, then click General.</description>
+    </item>
+    
+    <item>
+      <title>aws cli input and TF state file</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-10-09-aws-terraform/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-10-09-aws-terraform/</guid>
+      <description>AWS cli v2 input prompting Today I learned that there is an argument that you can pass to the aws cli and it will prompt you for the input for the command that you are trying to run. https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-parameters-prompting.html
+If you are using version 2 of the aws cli then just add --cli-auto-prompt to your command and it will make magic.
+This is good if you don&amp;rsquo;t recall what you need to have in a command so it will just ask you along the way.</description>
+    </item>
+    
+    <item>
+      <title>uni headsetcontrol</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-09-21-uni/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-09-21-uni/</guid>
+      <description>UNI there is a handy little thing written in go that can handle unicode lookups from the terminal. I like all things terminal so here it is.
+https://github.com/arp242/uni
+go get arp242.net/uni
+Which will then allow you to search unicode from the terminal nice and easy uni search unicorn
+headset control I use an arctis 7 for my work headset, it is pretty nice but since it is USB 2.4ghz it lacks some of the features up bluetooth.</description>
+    </item>
+    
+    <item>
+      <title>BBQ</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2020-09-18-bbq/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2020-09-18-bbq/</guid>
+      <description>just some thoughts on places to eat in the future There are tons of good places to get bbq in chicago, but here are some top winners
+https://chicagoculinarykitchen.com/ bbq in the burbs is chicago culinary kitchen located at 773 N. Quentin Road Palatine, IL
+Food truck / small shop that makes meat and then closes up shop when they run out of it.</description>
+    </item>
+    
+    <item>
       <title>2018-08-28_Synology_Time_Machine</title>
       <link>https://ridingintraffic-beta.github.io/posts/2018-08-28-time-machine-nas/</link>
       <pubDate>Tue, 28 Aug 2018 08:10:50 -0400</pubDate>
@@ -184,135 +302,7 @@ Sets What is a set? Sets are collections without duplicates and can be denoted w
     </item>
     
     <item>
-      <title>2020-09-18 BBQ</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2020-09-18-bbq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2020-09-18-bbq/</guid>
-      <description>just some thoughts on places to eat in the future There are tons of good places to get bbq in chicago, but here are some top winners
-https://chicagoculinarykitchen.com/ bbq in the burbs is chicago culinary kitchen located at 773 N. Quentin Road Palatine, IL
-Food truck / small shop that makes meat and then closes up shop when they run out of it.</description>
-    </item>
-    
-    <item>
-      <title>2020-09-21 uni headsetcontrol</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2020-09-21-uni/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2020-09-21-uni/</guid>
-      <description>UNI there is a handy little thing written in go that can handle unicode lookups from the terminal. I like all things terminal so here it is.
-https://github.com/arp242/uni
-go get arp242.net/uni
-Which will then allow you to search unicode from the terminal nice and easy uni search unicorn
-headset control I use an arctis 7 for my work headset, it is pretty nice but since it is USB 2.4ghz it lacks some of the features up bluetooth.</description>
-    </item>
-    
-    <item>
-      <title>2020-10-09 aws cli input and TF state file</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2020-10-09-aws-terraform/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2020-10-09-aws-terraform/</guid>
-      <description>AWS cli v2 input prompting Today I learned that there is an argument that you can pass to the aws cli and it will prompt you for the input for the command that you are trying to run. https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-parameters-prompting.html
-If you are using version 2 of the aws cli then just add --cli-auto-prompt to your command and it will make magic.
-This is good if you don&amp;rsquo;t recall what you need to have in a command so it will just ask you along the way.</description>
-    </item>
-    
-    <item>
-      <title>2020-11-11 terraform destroy gpg pinentry</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</guid>
-      <description>pinentry is broken on my mac?! try this first
-# Kill gpg-agent killall gpg-agent # Run gpg-agent in daemon mode gpg-agent --daemon Universal handoff - clipboard mac/IOS There is a feature in mac land that allows you to share clipboard between phone and computer if they are both on the same wifi along with the same apple account. This can be super useful for a variety of applications.
-Here&amp;#39;s how to turn on Handoff on your devices: On your Mac: Choose Apple () menu &amp;gt; System Preferences, then click General.</description>
-    </item>
-    
-    <item>
-      <title>2020-11-12 bfg -delete</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</guid>
-      <description>Help! I committed and pushed something dangerous to github This happens we are not perfect and from time to time mistakes are made. Thats ok we can fix it with bfg
-git add my-bad-file git commit -a -m &amp;#34;im dumb&amp;#34; git push origin master # I did not mean to do that, I did not mean to do that # Lets fix it # i am in the repo folder named my-repo rm my-bad-file git commit -a -m &amp;#34;go away&amp;#34; git push origin master cd .</description>
-    </item>
-    
-    <item>
-      <title>2020-11-12 keybase gpg signing</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</guid>
-      <description>I am borrowing this from pstadler because it is really good https://github.com/pstadler/keybase-gpg-github/blob/master/README.md
-Set up Keybase.io, GPG &amp;amp; Git to sign commits on GitHub This is a step-by-step guide on how to create a GPG key on keybase.io, adding it to a local GPG setup and use it with Git and GitHub.
-Although this guide was written for macOS, most commands should work in other operating systems as well.
-There&amp;rsquo;s a video published by Timothy Miller explaining some parts of this guide.</description>
-    </item>
-    
-    <item>
-      <title>2021-01-19 vim-jq</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</guid>
-      <description>Format json in vim If you have jq installed then all you need to do, to pretty print json is.
-:%!jq &amp;#39;.&amp;#39; Bam pretty json in vim</description>
-    </item>
-    
-    <item>
-      <title>2021-05-26 git-diff</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2021-05-26-git-diff/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2021-05-26-git-diff/</guid>
-      <description>Diffing with git Diffing with git is hard so I wrote an alias in order to make my life easier.
-alias git-diff-master=&amp;#39;git diff master...`git rev-parse --abbrev-ref HEAD`&amp;#39; Run that little alias and you are good to go when you need to check what you have changed.
-bye</description>
-    </item>
-    
-    <item>
-      <title>2021-07-12 qmk-animations</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2021-07-12/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2021-07-12/</guid>
-      <description>#QMK animation Having a keyboard with an oled screen means that you can add things to it. This cute little bongo cat animations or other things.
-This lets you create all sorts of animations https://githubmemory.com/repo/AskMeAboutBirds/qmk-oled-animation-compressor</description>
-    </item>
-    
-    <item>
-      <title>2021-09-16 repl python</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</guid>
-      <description>Using repl to debug python.
-https://jvns.ca/blog/2021/09/16/debugging-in-a-repl-is-fun/
-what’s a REPL? REPL stands for “read eval print loop”. A REPL is a program that: reads some input from you like print(f&amp;#34;2 + 2 = {2+2}&amp;#34;) (read) evaluates the input (eval) print out the result (print) and then goes back to step 1 (loop) A couple years ago I used pry in ruby/chef a bunch and then I guess I forgot about it. Now this works for python too and it is WAY better than my print statement hell that I usually write.</description>
-    </item>
-    
-    <item>
-      <title>2022-03-14 code to path</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</guid>
-      <description>Adding code . to your terminal in order to open vscode. I like to maintain a terminal session running with just about everything that I am working on in it. Usually I work in VIM but lately I have needed to use vscode for a number of things. I like being ale to clone or switch the repo I am working on from the terminal and then open an editor directly from there.</description>
-    </item>
-    
-    <item>
-      <title>2022-04-27 github vscode</title>
-      <link>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</guid>
-      <description>Github and gitlab both have online text editors. if you are in safari and you have a repo open for either of them. All you need to do is type the period key and they will pop full fledged web editors for you. with github you are actually getting vscode with gitlab you are getting their editor. this makes me miss github for my daily work environment. but i guess there is a gitlab plugin for vscode in the web.</description>
-    </item>
-    
-    <item>
-      <title>2022-05-24 bagel sandwich the easy way</title>
+      <title>bagel sandwich the easy way</title>
       <link>https://ridingintraffic-beta.github.io/posts/2022-05-24-bagel-sandwich-the-easy-way/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -320,6 +310,16 @@ what’s a REPL? REPL stands for “read eval print loop”. A REPL is a program
       <description>I love bagel and egg sandwiches and they are super easy to make with almost no cleanup.
 Bagel and egg sandwich the easy way(almost NO cleanup):
 as learned from watching a local bagel shop do it for a couple years. heat pan i think its a 12 or 16&amp;quot;, melt butter/oil to coat even nonstick pan while pan is heating take bowl, crack two eggs and whip them together - add whatever spices you want, I usually add nothing once pan is sizzling (if you toss a drop of water in it it sizzles) pour in bowl of eggs toast bagel let cook until it is just about no longer runny, take a decently big spatula fold egg in half, and then fold into quarter, press down, cook one side until it is done enough for you then flip.</description>
+    </item>
+    
+    <item>
+      <title>qmk-animations</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-07-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-07-12/</guid>
+      <description>#QMK animation Having a keyboard with an oled screen means that you can add things to it. This cute little bongo cat animations or other things.
+This lets you create all sorts of animations https://githubmemory.com/repo/AskMeAboutBirds/qmk-oled-animation-compressor</description>
     </item>
     
   </channel>

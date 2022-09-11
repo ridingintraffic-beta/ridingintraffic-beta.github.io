@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>keyboards on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/tags/keyboards/</link>
+    <description>Recent content in keyboards on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ridingintraffic-beta.github.io/tags/keyboards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>qmk-animations</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-07-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-07-12/</guid>
+      <description>#QMK animation Having a keyboard with an oled screen means that you can add things to it. This cute little bongo cat animations or other things.
+This lets you create all sorts of animations https://githubmemory.com/repo/AskMeAboutBirds/qmk-oled-animation-compressor</description>
+    </item>
+    
+  </channel>
+</rss>

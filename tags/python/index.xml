@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>python on what did I learn today</title>
+    <link>https://ridingintraffic-beta.github.io/tags/python/</link>
+    <description>Recent content in python on what did I learn today</description>
+    <image>
+      <url>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ridingintraffic-beta.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 -0500</lastBuildDate><atom:link href="https://ridingintraffic-beta.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python repl</title>
+      <link>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 -0500</pubDate>
+      
+      <guid>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</guid>
+      <description>Using repl to debug python.
+https://jvns.ca/blog/2021/09/16/debugging-in-a-repl-is-fun/
+what’s a REPL? REPL stands for “read eval print loop”. A REPL is a program that: reads some input from you like print(f&amp;#34;2 + 2 = {2+2}&amp;#34;) (read) evaluates the input (eval) print out the result (print) and then goes back to step 1 (loop) A couple years ago I used pry in ruby/chef a bunch and then I guess I forgot about it. Now this works for python too and it is WAY better than my print statement hell that I usually write.</description>
+    </item>
+    
+  </channel>
+</rss>

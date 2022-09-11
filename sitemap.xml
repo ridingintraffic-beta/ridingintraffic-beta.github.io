@@ -53,6 +53,42 @@
     <loc>https://ridingintraffic-beta.github.io/tags/scripting/</loc>
     <lastmod>2022-08-07T00:00:00-05:00</lastmod>
   </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</loc>
+    <lastmod>2022-04-27T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</loc>
+    <lastmod>2022-03-14T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/tags/python/</loc>
+    <lastmod>2021-09-16T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</loc>
+    <lastmod>2021-09-16T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2021-05-26-git-diff/</loc>
+    <lastmod>2021-05-26T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</loc>
+    <lastmod>2021-01-19T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</loc>
+    <lastmod>2020-11-17T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</loc>
+    <lastmod>2020-11-12T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</loc>
+    <lastmod>2020-11-11T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2020-10-09-aws-terraform/</loc>
+    <lastmod>2020-10-09T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2020-09-21-uni/</loc>
+    <lastmod>2020-09-21T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ridingintraffic-beta.github.io/posts/2020-09-18-bbq/</loc>
+    <lastmod>2020-09-18T00:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2018-11-30-virtualbox-shared-clipboard_ripgrep-install/</loc>
     <lastmod>2018-11-30T08:08:50-04:00</lastmod>
   </url><url>
@@ -422,43 +458,15 @@
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2020-07-08-terraform-external/</loc>
   </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2020-09-18-bbq/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2020-09-21-uni/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2020-10-09-aws-terraform/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2020-11-11-tf-pinentry-gpg/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2020-11-12-bfg-delete-files/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2020-11-17-keybase-gpg-signing/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2021-01-19-vim-jq/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2021-05-26-git-diff/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2021-07-12/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2021-09-16-repl/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2022-03-14-vscode/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2022-04-27-vscode-github/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/posts/2022-05-24-bagel-sandwich-the-easy-way/</loc>
-  </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-20-ansible/</loc>
   </url><url>
-    <loc>https://ridingintraffic-beta.github.io/tags/bagel/</loc>
+    <loc>https://ridingintraffic-beta.github.io/posts/2022-05-24-bagel-sandwich-the-easy-way/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-19-chef/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2018-02-19-chef-notes/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-27-cli/</loc>
-  </url><url>
-    <loc>https://ridingintraffic-beta.github.io/tags/eggs/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/tags/food/</loc>
   </url><url>
@@ -472,13 +480,15 @@
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/tags/intro/</loc>
   </url><url>
+    <loc>https://ridingintraffic-beta.github.io/tags/keyboards/</loc>
+  </url><url>
     <loc>https://ridingintraffic-beta.github.io/tags/pi/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2016-02-20-qmk/</loc>
   </url><url>
-    <loc>https://ridingintraffic-beta.github.io/tags/rasberrypi/</loc>
+    <loc>https://ridingintraffic-beta.github.io/posts/2021-07-12/</loc>
   </url><url>
-    <loc>https://ridingintraffic-beta.github.io/tags/recipe/</loc>
+    <loc>https://ridingintraffic-beta.github.io/tags/rasberrypi/</loc>
   </url><url>
     <loc>https://ridingintraffic-beta.github.io/posts/2017-03-08-roasting-log/</loc>
   </url><url>
